@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retos Enfrentados y Soluciones - Carlos Antonio Salgado Romero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="objetivos.css">
+    <link rel="stylesheet" href="retos.css">
+</head>
+<body>
+    
+    <!-- App Container -->
+    <section id="app" class="logged-in">
+        
+        <!-- Background -->
+        <section id="app-background">
+            <div id="app-background-image" class="background-image"></div>
+        </section>
+        
+        <!-- Main Menu -->
+        <main id="app-menu">
+            <section id="app-menu-content-wrapper">
+                <article id="app-menu-content">
+                    
+                    <!-- Header con Logo y Hora -->
+                    <header id="app-menu-content-header">
+                        <article class="header-left">
+                            <!-- Logo Universidad -->
+                            <figure class="logo-placeholder small">
+                                <img src="LogoUes.png" alt="Logo Universidad de El Salvador" class="logo-image">
+                            </figure>
+                            <section class="header-info">
+                                <span class="time" id="time-menu">5:45</span>
+                                <span class="university-text">Universidad de El Salvador</span>
+                            </section>
+                        </article>
+                        <article class="header-right">
+                            <a href="index.html" class="user-status-button clear-button">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                        </article>
+                    </header>
+                    
+                    <!-- Navigation Bar - Fixed -->
+                    <nav id="main-nav">
+                        <a href="objetivos.html" class="nav-item clear-button">Objetivos de la práctica docente</a>
+                        <a href="planeacion.html" class="nav-item clear-button">Planeación y organización</a>
+                        <a href="planificaciones.html" class="nav-item clear-button">Planificaciones de clases</a>
+                        <a href="evidencias.html" class="nav-item clear-button">Evidencias de la práctica docente</a>
+                        <a href="diario.html" class="nav-item clear-button active">Diario reflexivo semanal</a>
+                        <a href="instrumentos.html" class="nav-item clear-button">Instrumentos aplicados y resultados</a>
+                        <a href="evaluacion.html" class="nav-item clear-button">Evaluación y retroalimentación</a>
+                        <a href="mejora.html" class="nav-item clear-button">Propuesta de mejora</a>
+                        <a href="recursos.html" class="nav-item clear-button">Recursos tecnológicos aplicados</a>
+                        <a href="anexos.html" class="nav-item clear-button">Anexos</a>
+                    </nav>
+                    
+                    <!-- Sub Navigation Bar -->
+                    <nav id="sub-nav">
+                        <div class="border-effect"></div>
+                        <ul>
+                            <li id="actividades-tab">
+                                <a href="diario.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 2V5M16 2V5M3.5 9.09H20.5M21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Actividades realizadas</p>
+                                </a>
+                            </li>
+                            <li id="retos-tab" class="active">
+                                <a href="retos.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12 8V13" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M11.9945 16H12.0035" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Retos enfrentados y soluciones</p>
+                                </a>
+                            </li>
+                            <li id="aprendizajes-tab">
+                                <a href="aprendizajes.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.75 12L10.58 14.83L16.25 9.17" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Aprendizajes obtenidos</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <!-- Content Section -->
+                    <section id="retos-content" class="content-section">
+                        
+                        <!-- Hero Header -->
+                        <div class="hero-header">
+                            <div class="hero-icon">
+                                <i class="fa-solid fa-mountain"></i>
+                            </div>
+                            <h1 class="main-title">Retos Enfrentados y Soluciones</h1>
+                            <p class="hero-subtitle">Desafíos superados durante la práctica docente</p>
+                        </div>
+                        
+                        <!-- Retos Cards -->
+                        <div class="retos-container">
+                            
+                            <!-- Reto 1: Comunicación y Engagement -->
+                            <article class="reto-card" data-aos="fade-up">
+                                <div class="reto-header">
+                                    <div class="reto-icon challenge">
+                                        <i class="fa-solid fa-exclamation-triangle"></i>
+                                    </div>
+                                    <div class="reto-title-section">
+                                        <span class="reto-badge">Reto 1</span>
+                                        <h2 class="reto-title">El Reto de la Comunicación y el "Engagement"</h2>
+                                    </div>
+                                </div>
+                                
+                                <div class="reto-body">
+                                    <div class="challenge-section">
+                                        <div class="section-label">
+                                            <i class="fa-solid fa-circle-exclamation"></i>
+                                            <span>Desafío</span>
+                                        </div>
+                                        <p class="reto-text">
+                                            En mi primera intervención oficial, mi mayor temor era no lograr conectar con los estudiantes, caer en explicaciones monótonas o "dormir a la clase", sentir la presión de expresarme correctamente y mantener el dinamismo.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="arrow-divider">
+                                        <i class="fa-solid fa-arrow-down"></i>
+                                    </div>
+                                    
+                                    <div class="solution-section">
+                                        <div class="section-label success">
+                                            <i class="fa-solid fa-lightbulb"></i>
+                                            <span>Solución</span>
+                                        </div>
+                                        <p class="reto-text">
+                                            Transformé esos nervios en preparación, para las siguientes sesiones, trabajé en mi fluidez verbal y lenguaje corporal. El resultado fue inmediato: logré captar la atención del grupo, pasando de ser oyentes pasivos a participantes activos que formulaban preguntas, debatían y aportaban ejemplos propios, enriqueciendo la clase considerablemente.
+                                        </p>
+                                        <div class="result-tags">
+                                            <span class="result-tag">
+                                                <i class="fa-solid fa-check-circle"></i>
+                                                Atención captada
+                                            </span>
+                                            <span class="result-tag">
+                                                <i class="fa-solid fa-check-circle"></i>
+                                                Participación activa
+                                            </span>
+                                            <span class="result-tag">
+                                                <i class="fa-solid fa-check-circle"></i>
+                                                Clase enriquecida
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            
+                            <!-- Reto 2: Gestión de Carga Académica -->
+                            <article class="reto-card" data-aos="fade-up" data-aos-delay="100">
+                                <div class="reto-header">
+                                    <div class="reto-icon challenge">
+                                        <i class="fa-solid fa-briefcase"></i>
+                                    </div>
+                                    <div class="reto-title-section">
+                                        <span class="reto-badge">Reto 2</span>
+                                        <h2 class="reto-title">Gestión de la Carga Académica</h2>
+                                    </div>
+                                </div>
+                                
+                                <div class="reto-body">
+                                    <div class="challenge-section">
+                                        <div class="section-label">
+                                            <i class="fa-solid fa-circle-exclamation"></i>
+                                            <span>Desafío</span>
+                                        </div>
+                                        <p class="reto-text">
+                                            El desarrollo simultáneo de instrumentos complejos, como el Informe Diagnóstico y las Actividades Asíncronas de planificación, representó un reto de organización y rigor académico.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="arrow-divider">
+                                        <i class="fa-solid fa-arrow-down"></i>
+                                    </div>
+                                    
+                                    <div class="solution-section">
+                                        <div class="section-label success">
+                                            <i class="fa-solid fa-lightbulb"></i>
+                                            <span>Solución</span>
+                                        </div>
+                                        <p class="reto-text">
+                                            Enfrenté esto mediante una disciplina estricta de gestión del tiempo y la investigación profunda, asegurando que cada documento no fuera solo un trámite, sino una base sólida para mi práctica.
+                                        </p>
+                                        <div class="result-tags">
+                                            <span class="result-tag">
+                                                <i class="fa-solid fa-check-circle"></i>
+                                                Gestión del tiempo
+                                            </span>
+                                            <span class="result-tag">
+                                                <i class="fa-solid fa-check-circle"></i>
+                                                Investigación profunda
+                                            </span>
+                                            <span class="result-tag">
+                                                <i class="fa-solid fa-check-circle"></i>
+                                                Rigor académico
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            
+                        </div>
+                        
+                        <!-- Summary Section -->
+                        <div class="summary-section">
+                            <div class="summary-icon">
+                                <i class="fa-solid fa-trophy"></i>
+                            </div>
+                            <h3 class="summary-title">Aprendizajes Clave</h3>
+                            <p class="summary-text">
+                                Cada reto enfrentado se convirtió en una oportunidad de crecimiento profesional. La preparación meticulosa, la adaptabilidad y la gestión eficiente del tiempo fueron pilares fundamentales para superar los desafíos y lograr una práctica docente exitosa.
+                            </p>
+                        </div>
+                        
+                    </section>
+                    
+                </article>
+            </section>
+        </main>
+        
+    </section>
+    <!-- ═══════════════════════════════════════════════════════════
+     🎨 FOOTER ESPECTACULAR - HTML
+     Copia este código al final de CADA página (antes de </body>)
+     ════════════════════════════════════════════════════════════ -->
+
+<!-- Footer Espectacular -->
+<footer class="spectacular-footer">
+    
+    <!-- Animated Background -->
+    <div class="footer-animated-bg">
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <!-- Las partículas se crean con JavaScript -->
+    </div>
+    
+    <!-- Wave Divider -->
+    <div class="footer-wave">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path class="wave-path" d="M0,0 C150,80 350,0 600,50 C850,100 1050,20 1200,80 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.3"/>
+            <path class="wave-path" d="M0,0 C200,60 400,20 600,70 C800,120 1000,40 1200,90 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.2" 
+                  style="animation-duration: 15s; animation-delay: -5s;"/>
+            <defs>
+                <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#42a5f5;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+    
+    <!-- Footer Content -->
+    <div class="footer-content">
+        
+        <!-- Footer Grid -->
+        <div class="footer-grid">
+            
+            <!-- Universidad -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Universidad
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎓</div>
+                    <div class="footer-item-text">Universidad de El Salvador</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏛️</div>
+                    <div class="footer-item-text">Facultad de Ciencias Naturales y Matematicas</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📚</div>
+                    <div class="footer-item-text">Licenciatura en Informática Educativa</div>
+                </div>
+            </div>
+            
+            <!-- Práctica Docente -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    Práctica Docente
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📖</div>
+                    <div class="footer-item-text">Lenguaje y Literatura</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏫</div>
+                    <div class="footer-item-text">Instituto Nacional "14 de Julio de 1875"</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📅</div>
+                    <div class="footer-item-text">Ciclo II - <span class="current-year">2025</span></div>
+                </div>
+            </div>
+            
+            <!-- Información -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Información
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎯</div>
+                    <div class="footer-item-text">Portafolio Digital Docente</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">💼</div>
+                    <div class="footer-item-text">Práctica Profesional</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">✨</div>
+                    <div class="footer-item-text">Evidencias y Reflexiones</div>
+                </div>
+            </div>
+            
+            <!-- Desarrollador -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-code"></i>
+                    Desarrollado por
+                </h3>
+                <div class="developer-card">
+                    <div class="developer-avatar">
+                        👨‍💻
+                    </div>
+                    <div class="developer-name">Carlos Antonio Salgado Romero</div>
+                    <div class="developer-role">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        Estudiante UES
+                    </div>
+                </div>
+                
+                <!-- Social Links (opcional) -->
+                <div class="social-links" style="margin-top: 20px; justify-content: center;">
+                    <a href="#" class="social-link" title="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <div class="copyright-text">
+                    <i class="fa-regular fa-copyright copyright-icon"></i>
+                    <span class="current-year">2025</span>
+                    <span>Universidad de El Salvador</span>
+                    <span>•</span>
+                    <span>Práctica Docente</span>
+                </div>
+                <div class="copyright-text">
+                    <span>Hecho con</span>
+                    <i class="fa-solid fa-heart copyright-heart"></i>
+                    <span>para la educación</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</footer>
+
+<!-- Scroll to Top Button -->
+<button class="scroll-to-top" title="Volver arriba">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+<script src="script.js"></script>
+    <script src="retos.js"></script>
+</body>
+</html>

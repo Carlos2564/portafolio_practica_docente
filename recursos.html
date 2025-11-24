@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Tecnológicos Aplicados - Carlos Antonio Salgado Romero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="objetivos.css">
+    <link rel="stylesheet" href="recursos.css">
+</head>
+<body>
+    
+    <!-- App Container -->
+    <section id="app" class="logged-in">
+        
+        <!-- Background -->
+        <section id="app-background">
+            <div id="app-background-image" class="background-image"></div>
+        </section>
+        
+        <!-- Main Menu -->
+        <main id="app-menu">
+            <section id="app-menu-content-wrapper">
+                <article id="app-menu-content">
+                    
+                    <!-- Header con Logo y Hora -->
+                    <header id="app-menu-content-header">
+                        <article class="header-left">
+                            <!-- Logo Universidad -->
+                            <figure class="logo-placeholder small">
+                                <img src="LogoUes.png" alt="Logo Universidad de El Salvador" class="logo-image">
+                            </figure>
+                            <section class="header-info">
+                                <span class="time" id="time-menu">5:45</span>
+                                <span class="university-text">Universidad de El Salvador</span>
+                            </section>
+                        </article>
+                        <article class="header-right">
+                            <a href="index.html" class="user-status-button clear-button">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                        </article>
+                    </header>
+                    
+                    <!-- Navigation Bar - Fixed -->
+                    <nav id="main-nav">
+                        <a href="objetivos.html" class="nav-item clear-button">Objetivos de la práctica docente</a>
+                        <a href="planeacion.html" class="nav-item clear-button">Planeación y organización</a>
+                        <a href="planificaciones.html" class="nav-item clear-button">Planificaciones de clases</a>
+                        <a href="evidencias.html" class="nav-item clear-button">Evidencias de la práctica docente</a>
+                        <a href="diario.html" class="nav-item clear-button">Diario reflexivo semanal</a>
+                        <a href="instrumentos.html" class="nav-item clear-button">Instrumentos aplicados y resultados</a>
+                        <a href="evaluacion.html" class="nav-item clear-button">Evaluación y retroalimentación</a>
+                        <a href="mejora.html" class="nav-item clear-button">Propuesta de mejora</a>
+                        <a href="recursos.html" class="nav-item clear-button active">Recursos tecnológicos aplicados</a>
+                        <a href="anexos.html" class="nav-item clear-button">Anexos</a>
+                    </nav>
+                    
+                    <!-- Sub Navigation Bar -->
+                    <nav id="sub-nav">
+                        <div class="border-effect"></div>
+                        <ul>
+                            <li id="herramientas-tab" class="active">
+                                <a href="recursos.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.5 12H12M12 12H16.5M12 12V7.5M12 12V16.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Herramientas y experiencias</p>
+                                </a>
+                            </li>
+                            <li id="conclusiones-tab">
+                                <a href="conclusiones.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.75 12L10.58 14.83L16.25 9.17" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Conclusiones y valoración</p>
+                                </a>
+                            </li>
+                             <li id="conclusiones-tab">
+                                <a href="logros.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.75 12L10.58 14.83L16.25 9.17" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Logros alcanzados</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <!-- Content Section -->
+                    <section id="recursos-tech-content" class="content-section">
+                        
+                        <!-- Hero Header -->
+                        <div class="hero-header">
+                            <div class="hero-icon">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+                            <h1 class="main-title">Recursos Tecnológicos Aplicados</h1>
+                            <p class="hero-subtitle">Herramientas digitales y experiencias significativas</p>
+                        </div>
+                        
+                        <!-- Herramientas Digitales Section -->
+                        <div class="herramientas-section">
+                            <div class="section-header">
+                                <div class="section-icon">
+                                    <i class="fa-solid fa-toolbox"></i>
+                                </div>
+                                <h2 class="section-title">Herramientas Digitales Utilizadas</h2>
+                            </div>
+                            
+                            <div class="herramientas-grid">
+                                
+                                <!-- Canva -->
+                                <article class="herramienta-card" data-aos="fade-up">
+                                    <div class="herramienta-header">
+                                        <div class="herramienta-icon canva">
+                                            <i class="fa-solid fa-palette"></i>
+                                        </div>
+                                        <h3 class="herramienta-nombre">Canva</h3>
+                                    </div>
+                                    <p class="herramienta-aplicacion">
+                                        Creación de infografías y material visual para explicar conceptos de forma atractiva y accesible, facilitando la comprensión de contenidos abstractos.
+                                    </p>
+                                    <div class="aporte-pedagogico">
+                                        <span class="aporte-label">Aporte pedagógico:</span>
+                                        <p class="aporte-text">Estimula la creatividad visual y permite diversificar las formas de presentación de información.</p>
+                                    </div>
+                                </article>
+                                
+                                <!-- Genially -->
+                                <article class="herramienta-card" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="herramienta-header">
+                                        <div class="herramienta-icon genially">
+                                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                        </div>
+                                        <h3 class="herramienta-nombre">Genially</h3>
+                                    </div>
+                                    <p class="herramienta-aplicacion">
+                                        Desarrollo de presentaciones interactivas y recursos multimedia dinámicos que mantienen la atención y participación activa de los estudiantes.
+                                    </p>
+                                    <div class="aporte-pedagogico">
+                                        <span class="aporte-label">Aporte pedagógico:</span>
+                                        <p class="aporte-text">Fomenta la interactividad y el aprendizaje activo mediante elementos multimedia.</p>
+                                    </div>
+                                </article>
+                                
+                                <!-- Google Classroom -->
+                                <article class="herramienta-card" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="herramienta-header">
+                                        <div class="herramienta-icon classroom">
+                                            <i class="fa-brands fa-google"></i>
+                                        </div>
+                                        <h3 class="herramienta-nombre">Google Classroom</h3>
+                                    </div>
+                                    <p class="herramienta-aplicacion">
+                                        Plataforma para la gestión de asignaciones, entrega de trabajos y retroalimentación asincrónica, apoyando el modelo de Aula Invertida.
+                                    </p>
+                                    <div class="aporte-pedagogico">
+                                        <span class="aporte-label">Aporte pedagógico:</span>
+                                        <p class="aporte-text">Organiza el flujo de trabajo y facilita la comunicación docente-estudiante.</p>
+                                    </div>
+                                </article>
+                                
+                                <!-- Proyector y Laptop -->
+                                <article class="herramienta-card" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="herramienta-header">
+                                        <div class="herramienta-icon hardware">
+                                            <i class="fa-solid fa-display"></i>
+                                        </div>
+                                        <h3 class="herramienta-nombre">Proyector y Laptop</h3>
+                                    </div>
+                                    <p class="herramienta-aplicacion">
+                                        Equipo personal utilizado para transformar el aula en un espacio multimedia, proyectando diapositivas, videos educativos y recursos visuales.
+                                    </p>
+                                    <div class="aporte-pedagogico">
+                                        <span class="aporte-label">Aporte pedagógico:</span>
+                                        <p class="aporte-text">Convierte el espacio tradicional en un entorno tecnológico propicio para nativos digitales.</p>
+                                    </div>
+                                </article>
+                                
+                            </div>
+                        </div>
+                        
+                        <!-- Experiencias Significativas Section -->
+                        <div class="experiencias-section">
+                            <div class="section-header centered">
+                                <div class="section-icon">
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <h2 class="section-title">Experiencias Significativas</h2>
+                                <p class="section-subtitle">Relatos de situaciones relevantes en la práctica docente</p>
+                            </div>
+                            
+                            <!-- Experiencia 1: Primera Intervención -->
+                            <article class="experiencia-card challenge" data-aos="fade-right">
+                                <div class="experiencia-badge">
+                                    <i class="fa-solid fa-mountain"></i>
+                                    <span>Desafío Inicial</span>
+                                </div>
+                                <h3 class="experiencia-title">Primera Intervención Formal</h3>
+                                <div class="experiencia-content">
+                                    <p class="experiencia-text">
+                                        La práctica docente fue un proceso de constante evolución. Una de las situaciones más desafiantes fue mi primera intervención formal en el aula. A pesar de la rigurosa planificación, la barrera inicial del miedo escénico y la necesidad de mantener a un grupo de estudiantes activos me generó una presión considerable. La clase fue técnicamente correcta, pero no sentí la conexión esperada.
+                                    </p>
+                                    <div class="transformation-arrow">
+                                        <i class="fa-solid fa-arrow-down"></i>
+                                        <span>Transformación</span>
+                                    </div>
+                                    <div class="experiencia-resultado">
+                                        <p class="resultado-text">
+                                            Sin embargo, esta experiencia se transformó en la más significativa, la retroalimentación de esa primera jornada fue mi catalizador, para la siguiente sesión, mi preparación se centró en la empatía y la fluidez, resultando en una clase donde los estudiantes no solo escucharon, sino que participaron activamente, preguntaron y debatieron, superando mis expectativas, este momento de conexión genuina, donde la teoría se convirtió en diálogo, fue la confirmación más profunda de mi vocación.
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                            
+                            <!-- Experiencia 2: Jornadas No Oficiales -->
+                            <article class="experiencia-card positive" data-aos="fade-left">
+                                <div class="experiencia-badge">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <span>Compromiso Extra</span>
+                                </div>
+                                <h3 class="experiencia-title">Participación en Jornadas No Oficiales</h3>
+                                <div class="experiencia-content">
+                                    <p class="experiencia-text">
+                                        Otro relato relevante fue mi participación en las jornadas no oficiales, este compromiso, más allá de la obligación universitaria, se tradujo en una colaboración directa con la Licda. Nélida Castillo, apoyando en la creación de exámenes y planificaciones, este esfuerzo consolidó mi rol como un agente de cambio y apoyo administrativo-tecnológico dentro del centro educativo.
+                                    </p>
+                                    <div class="impacto-items">
+                                        <div class="impacto-item">
+                                            <i class="fa-solid fa-file-pen"></i>
+                                            <span>Creación de exámenes</span>
+                                        </div>
+                                        <div class="impacto-item">
+                                            <i class="fa-solid fa-clipboard-list"></i>
+                                            <span>Apoyo en planificaciones</span>
+                                        </div>
+                                        <div class="impacto-item">
+                                            <i class="fa-solid fa-handshake"></i>
+                                            <span>Agente de cambio</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        
+                        <!-- Aprendizajes Pedagógicos Section -->
+                        <div class="aprendizajes-section">
+                            <div class="section-header">
+                                <div class="section-icon">
+                                    <i class="fa-solid fa-book-open-reader"></i>
+                                </div>
+                                <h2 class="section-title">Aprendizajes Pedagógicos Extraídos</h2>
+                            </div>
+                            
+                            <div class="aprendizajes-grid">
+                                
+                                <!-- Aprendizaje 1 -->
+                                <article class="aprendizaje-card" data-aos="zoom-in">
+                                    <div class="aprendizaje-numero">01</div>
+                                    <div class="aprendizaje-icon">
+                                        <i class="fa-solid fa-arrows-spin"></i>
+                                    </div>
+                                    <h4 class="aprendizaje-title">Adaptabilidad y Diagnóstico en Tiempo Real</h4>
+                                    <p class="aprendizaje-text">
+                                        El mejor plan de clase es flexible; no basta con saber el contenido, hay que saber ajustar la metodología al nivel de energía, dudas e intereses del grupo en ese momento.
+                                    </p>
+                                </article>
+                                
+                                <!-- Aprendizaje 2 -->
+                                <article class="aprendizaje-card" data-aos="zoom-in" data-aos-delay="100">
+                                    <div class="aprendizaje-numero">02</div>
+                                    <div class="aprendizaje-icon">
+                                        <i class="fa-solid fa-palette"></i>
+                                    </div>
+                                    <h4 class="aprendizaje-title">Enseñanza del Modelado Práctico</h4>
+                                    <p class="aprendizaje-text">
+                                        Al mostrar diferentes formas de crear infografías o realizar exposiciones, no solo transmití conocimiento, sino que inspiré creatividad.
+                                    </p>
+                                </article>
+                                
+                                <!-- Aprendizaje 3 -->
+                                <article class="aprendizaje-card" data-aos="zoom-in" data-aos-delay="200">
+                                    <div class="aprendizaje-numero">03</div>
+                                    <div class="aprendizaje-icon">
+                                        <i class="fa-solid fa-comments"></i>
+                                    </div>
+                                    <h4 class="aprendizaje-title">Retroalimentación como Motor</h4>
+                                    <p class="aprendizaje-text">
+                                        La retroalimentación se reveló como el motor de la confianza estudiantil, transformando la inseguridad en participación activa.
+                                    </p>
+                                </article>
+                                
+                            </div>
+                        </div>
+                        
+                    </section>
+                    
+                </article>
+            </section>
+        </main>
+        
+    </section>
+    <!-- ═══════════════════════════════════════════════════════════
+     🎨 FOOTER ESPECTACULAR - HTML
+     Copia este código al final de CADA página (antes de </body>)
+     ════════════════════════════════════════════════════════════ -->
+
+<!-- Footer Espectacular -->
+<footer class="spectacular-footer">
+    
+    <!-- Animated Background -->
+    <div class="footer-animated-bg">
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <!-- Las partículas se crean con JavaScript -->
+    </div>
+    
+    <!-- Wave Divider -->
+    <div class="footer-wave">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path class="wave-path" d="M0,0 C150,80 350,0 600,50 C850,100 1050,20 1200,80 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.3"/>
+            <path class="wave-path" d="M0,0 C200,60 400,20 600,70 C800,120 1000,40 1200,90 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.2" 
+                  style="animation-duration: 15s; animation-delay: -5s;"/>
+            <defs>
+                <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#42a5f5;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+    
+    <!-- Footer Content -->
+    <div class="footer-content">
+        
+        <!-- Footer Grid -->
+        <div class="footer-grid">
+            
+            <!-- Universidad -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Universidad
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎓</div>
+                    <div class="footer-item-text">Universidad de El Salvador</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏛️</div>
+                    <div class="footer-item-text">Facultad de Ciencias Naturales y Matematicas</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📚</div>
+                    <div class="footer-item-text">Licenciatura en Informática Educativa</div>
+                </div>
+            </div>
+            
+            <!-- Práctica Docente -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    Práctica Docente
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📖</div>
+                    <div class="footer-item-text">Lenguaje y Literatura</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏫</div>
+                    <div class="footer-item-text">Instituto Nacional "14 de Julio de 1875"</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📅</div>
+                    <div class="footer-item-text">Ciclo II - <span class="current-year">2025</span></div>
+                </div>
+            </div>
+            
+            <!-- Información -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Información
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎯</div>
+                    <div class="footer-item-text">Portafolio Digital Docente</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">💼</div>
+                    <div class="footer-item-text">Práctica Profesional</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">✨</div>
+                    <div class="footer-item-text">Evidencias y Reflexiones</div>
+                </div>
+            </div>
+            
+            <!-- Desarrollador -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-code"></i>
+                    Desarrollado por
+                </h3>
+                <div class="developer-card">
+                    <div class="developer-avatar">
+                        👨‍💻
+                    </div>
+                    <div class="developer-name">Carlos Antonio Salgado Romero</div>
+                    <div class="developer-role">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        Estudiante UES
+                    </div>
+                </div>
+                
+                <!-- Social Links (opcional) -->
+                <div class="social-links" style="margin-top: 20px; justify-content: center;">
+                    <a href="#" class="social-link" title="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <div class="copyright-text">
+                    <i class="fa-regular fa-copyright copyright-icon"></i>
+                    <span class="current-year">2025</span>
+                    <span>Universidad de El Salvador</span>
+                    <span>•</span>
+                    <span>Práctica Docente</span>
+                </div>
+                <div class="copyright-text">
+                    <span>Hecho con</span>
+                    <i class="fa-solid fa-heart copyright-heart"></i>
+                    <span>para la educación</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</footer>
+
+<!-- Scroll to Top Button -->
+<button class="scroll-to-top" title="Volver arriba">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+    <script src="script.js"></script>
+    <script src="recursos.js"></script>
+</body>
+</html>

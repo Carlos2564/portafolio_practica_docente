@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendizajes Obtenidos - Carlos Antonio Salgado Romero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="objetivos.css">
+    <link rel="stylesheet" href="aprendizajes.css">
+</head>
+<body>
+    
+    <!-- App Container -->
+    <section id="app" class="logged-in">
+        
+        <!-- Background -->
+        <section id="app-background">
+            <div id="app-background-image" class="background-image"></div>
+        </section>
+        
+        <!-- Main Menu -->
+        <main id="app-menu">
+            <section id="app-menu-content-wrapper">
+                <article id="app-menu-content">
+                    
+                    <!-- Header con Logo y Hora -->
+                    <header id="app-menu-content-header">
+                        <article class="header-left">
+                            <!-- Logo Universidad -->
+                            <figure class="logo-placeholder small">
+                                <img src="LogoUes.png" alt="Logo Universidad de El Salvador" class="logo-image">
+                            </figure>
+                            <section class="header-info">
+                                <span class="time" id="time-menu">5:45</span>
+                                <span class="university-text">Universidad de El Salvador</span>
+                            </section>
+                        </article>
+                        <article class="header-right">
+                            <a href="index.html" class="user-status-button clear-button">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                        </article>
+                    </header>
+                    
+                    <!-- Navigation Bar - Fixed -->
+                    <nav id="main-nav">
+                        <a href="objetivos.html" class="nav-item clear-button">Objetivos de la práctica docente</a>
+                        <a href="planeacion.html" class="nav-item clear-button">Planeación y organización</a>
+                        <a href="planificaciones.html" class="nav-item clear-button">Planificaciones de clases</a>
+                        <a href="evidencias.html" class="nav-item clear-button">Evidencias de la práctica docente</a>
+                        <a href="diario.html" class="nav-item clear-button active">Diario reflexivo semanal</a>
+                        <a href="instrumentos.html" class="nav-item clear-button">Instrumentos aplicados y resultados</a>
+                        <a href="evaluacion.html" class="nav-item clear-button">Evaluación y retroalimentación</a>
+                        <a href="mejora.html" class="nav-item clear-button">Propuesta de mejora</a>
+                        <a href="recursos.html" class="nav-item clear-button">Recursos tecnológicos aplicados</a>
+                        <a href="anexos.html" class="nav-item clear-button">Anexos</a>
+                    </nav>
+                    
+                    <!-- Sub Navigation Bar -->
+                    <nav id="sub-nav">
+                        <div class="border-effect"></div>
+                        <ul>
+                            <li id="actividades-tab">
+                                <a href="diario.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 2V5M16 2V5M3.5 9.09H20.5M21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Actividades realizadas</p>
+                                </a>
+                            </li>
+                            <li id="retos-tab">
+                                <a href="retos.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12 8V13" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M11.9945 16H12.0035" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Retos enfrentados y soluciones</p>
+                                </a>
+                            </li>
+                            <li id="aprendizajes-tab" class="active">
+                                <a href="aprendizajes.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.75 12L10.58 14.83L16.25 9.17" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Aprendizajes obtenidos</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <!-- Content Section -->
+                    <section id="aprendizajes-content" class="content-section">
+                        
+                        <!-- Hero Header -->
+                        <div class="hero-header">
+                            <div class="hero-icon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <h1 class="main-title">Aprendizajes Obtenidos</h1>
+                            <p class="hero-subtitle">Crecimiento personal y profesional</p>
+                        </div>
+                        
+                        <!-- Aprendizajes Grid -->
+                        <div class="aprendizajes-grid">
+                            
+                            <!-- Aprendizaje 1: Evolución de la Confianza -->
+                            <article class="aprendizaje-card" data-aos="fade-up">
+                                <div class="card-number">01</div>
+                                <div class="card-icon-wrapper">
+                                    <div class="card-icon confidence">
+                                        <i class="fa-solid fa-user-shield"></i>
+                                    </div>
+                                </div>
+                                <h2 class="card-title">Evolución de la Confianza</h2>
+                                <p class="card-text">
+                                    Aprendí que la seguridad frente al grupo se construye con preparación y empatía. Superar el miedo escénico inicial me demostró que soy capaz de liderar procesos educativos efectivos.
+                                </p>
+                                <div class="card-tags">
+                                    <span class="tag"><i class="fa-solid fa-check"></i> Preparación</span>
+                                    <span class="tag"><i class="fa-solid fa-check"></i> Empatía</span>
+                                    <span class="tag"><i class="fa-solid fa-check"></i> Liderazgo</span>
+                                </div>
+                            </article>
+                            
+                            <!-- Aprendizaje 2: El Valor del Extra -->
+                            <article class="aprendizaje-card" data-aos="fade-up" data-aos-delay="100">
+                                <div class="card-number">02</div>
+                                <div class="card-icon-wrapper">
+                                    <div class="card-icon dedication">
+                                        <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                </div>
+                                <h2 class="card-title">El Valor del "Extra"</h2>
+                                <p class="card-text">
+                                    Comprendí que la docencia no termina cuando suena el timbre, asistir a los días no oficiales y apoyar en la creación de exámenes o material gráfico me enseñó la importancia del trabajo invisible que sostiene el éxito en el aula.
+                                </p>
+                                <div class="card-tags">
+                                    <span class="tag"><i class="fa-solid fa-check"></i> Compromiso</span>
+                                    <span class="tag"><i class="fa-solid fa-check"></i> Dedicación</span>
+                                    <span class="tag"><i class="fa-solid fa-check"></i> Trabajo invisible</span>
+                                </div>
+                            </article>
+                            
+                            <!-- Aprendizaje 3: Adaptabilidad -->
+                            <article class="aprendizaje-card" data-aos="fade-up" data-aos-delay="200">
+                                <div class="card-number">03</div>
+                                <div class="card-icon-wrapper">
+                                    <div class="card-icon adaptability">
+                                        <i class="fa-solid fa-arrows-spin"></i>
+                                    </div>
+                                </div>
+                                <h2 class="card-title">Adaptabilidad</h2>
+                                <p class="card-text">
+                                    Desarrollé la habilidad de ajustar mi discurso y mis recursos (infografías) a las necesidades reales del momento, entendiendo que una clase "decente" no es la que cumple el programa, sino la que logra que el estudiante aprenda.
+                                </p>
+                                <div class="card-tags">
+                                    <span class="tag"><i class="fa-solid fa-check"></i> Flexibilidad</span>
+                                    <span class="tag"><i class="fa-solid fa-check"></i> Recursos dinámicos</span>
+                                    <span class="tag"><i class="fa-solid fa-check"></i> Enfoque en el aprendizaje</span>
+                                </div>
+                            </article>
+                            
+                        </div>
+                        
+                        <!-- Reflexión Personal -->
+                        <div class="reflexion-section">
+                            <div class="reflexion-header">
+                                <div class="reflexion-icon">
+                                    <i class="fa-solid fa-book-heart"></i>
+                                </div>
+                                <h2 class="reflexion-title">Reflexión Personal de la Semana</h2>
+                            </div>
+                            
+                            <div class="reflexion-content">
+                                <div class="reflexion-quote">
+                                    <i class="fa-solid fa-quote-left quote-icon"></i>
+                                    <div class="quote-text">
+                                        <p class="reflexion-text">
+                                            Al finalizar este ciclo de prácticas, me llevó mucho más que horas acumuladas; me llevo la certeza de que la docencia es un acto de entrega constante, iniciar este proceso fue un desafío a mis propias inseguridades, enfrentándome al reto de pararme frente a un grupo y ser no solo un transmisor de información, sino un facilitador de conocimientos.
+                                        </p>
+                                        <p class="reflexion-text">
+                                            Hubo momentos difíciles, donde la salud y la carga académica pesaban, pero ver la respuesta de los estudiantes —sus preguntas, su participación activa y su esfuerzo en las exposiciones— hizo que cada desvelo valiera la pena. Agradezco profundamente la mentoría de la Docente Nélida Josefina Castillo de Saravia, cuyo ejemplo de pasión y rigor me guió en cada paso, hoy, me siento más preparado, más humano y, sobre todo, más convencido de que mi camino está en la transformación a través de la educación tecnológica.
+                                        </p>
+                                    </div>
+                                    <i class="fa-solid fa-quote-right quote-icon"></i>
+                                </div>
+                                
+                                <div class="reflexion-highlights">
+                                    <div class="highlight-box">
+                                        <i class="fa-solid fa-lightbulb"></i>
+                                        <span>Facilitador de conocimientos</span>
+                                    </div>
+                                    <div class="highlight-box">
+                                        <i class="fa-solid fa-users"></i>
+                                        <span>Participación activa</span>
+                                    </div>
+                                    <div class="highlight-box">
+                                        <i class="fa-solid fa-hand-holding-heart"></i>
+                                        <span>Mentoría valiosa</span>
+                                    </div>
+                                    <div class="highlight-box">
+                                        <i class="fa-solid fa-rocket"></i>
+                                        <span>Transformación educativa</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Cierre Inspirador -->
+                        <div class="cierre-section">
+                            <div class="cierre-icon">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3 class="cierre-title">"El camino de la transformación educativa"</h3>
+                            <p class="cierre-text">
+                                Cada experiencia, cada desafío superado y cada aprendizaje obtenido me han moldeado como educador, la práctica docente no solo me enseñó a enseñar, sino que me transformó como persona.
+                            </p>
+                        </div>
+                        
+                    </section>
+                    
+                </article>
+            </section>
+        </main>
+        
+    </section>
+    <!-- ═══════════════════════════════════════════════════════════
+     🎨 FOOTER ESPECTACULAR - HTML
+     Copia este código al final de CADA página (antes de </body>)
+     ════════════════════════════════════════════════════════════ -->
+
+<!-- Footer Espectacular -->
+<footer class="spectacular-footer">
+    
+    <!-- Animated Background -->
+    <div class="footer-animated-bg">
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <!-- Las partículas se crean con JavaScript -->
+    </div>
+    
+    <!-- Wave Divider -->
+    <div class="footer-wave">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path class="wave-path" d="M0,0 C150,80 350,0 600,50 C850,100 1050,20 1200,80 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.3"/>
+            <path class="wave-path" d="M0,0 C200,60 400,20 600,70 C800,120 1000,40 1200,90 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.2" 
+                  style="animation-duration: 15s; animation-delay: -5s;"/>
+            <defs>
+                <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#42a5f5;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+    
+    <!-- Footer Content -->
+    <div class="footer-content">
+        
+        <!-- Footer Grid -->
+        <div class="footer-grid">
+            
+            <!-- Universidad -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Universidad
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎓</div>
+                    <div class="footer-item-text">Universidad de El Salvador</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏛️</div>
+                    <div class="footer-item-text">Facultad de Ciencias Naturales y Matematicas</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📚</div>
+                    <div class="footer-item-text">Licenciatura en Informática Educativa</div>
+                </div>
+            </div>
+            
+            <!-- Práctica Docente -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    Práctica Docente
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📖</div>
+                    <div class="footer-item-text">Lenguaje y Literatura</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏫</div>
+                    <div class="footer-item-text">Instituto Nacional "14 de Julio de 1875"</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📅</div>
+                    <div class="footer-item-text">Ciclo II - <span class="current-year">2025</span></div>
+                </div>
+            </div>
+            
+            <!-- Información -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Información
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎯</div>
+                    <div class="footer-item-text">Portafolio Digital Docente</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">💼</div>
+                    <div class="footer-item-text">Práctica Profesional</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">✨</div>
+                    <div class="footer-item-text">Evidencias y Reflexiones</div>
+                </div>
+            </div>
+            
+            <!-- Desarrollador -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-code"></i>
+                    Desarrollado por
+                </h3>
+                <div class="developer-card">
+                    <div class="developer-avatar">
+                        👨‍💻
+                    </div>
+                    <div class="developer-name">Carlos Antonio Salgado Romero</div>
+                    <div class="developer-role">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        Estudiante UES
+                    </div>
+                </div>
+                
+                <!-- Social Links (opcional) -->
+                <div class="social-links" style="margin-top: 20px; justify-content: center;">
+                    <a href="#" class="social-link" title="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <div class="copyright-text">
+                    <i class="fa-regular fa-copyright copyright-icon"></i>
+                    <span class="current-year">2025</span>
+                    <span>Universidad de El Salvador</span>
+                    <span>•</span>
+                    <span>Práctica Docente</span>
+                </div>
+                <div class="copyright-text">
+                    <span>Hecho con</span>
+                    <i class="fa-solid fa-heart copyright-heart"></i>
+                    <span>para la educación</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</footer>
+
+<!-- Scroll to Top Button -->
+<button class="scroll-to-top" title="Volver arriba">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+    <script src="aprendizajes.js"></script>
+</body>
+</html>

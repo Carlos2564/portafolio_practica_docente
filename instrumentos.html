@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrumentos Aplicados y Resultados - Carlos Antonio Salgado Romero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="objetivos.css">
+    <link rel="stylesheet" href="instrumentos.css">
+</head>
+<body>
+    
+    <!-- App Container -->
+    <section id="app" class="logged-in">
+        
+        <!-- Background -->
+        <section id="app-background">
+            <div id="app-background-image" class="background-image"></div>
+        </section>
+        
+        <!-- Main Menu -->
+        <main id="app-menu">
+            <section id="app-menu-content-wrapper">
+                <article id="app-menu-content">
+                    
+                    <!-- Header con Logo y Hora -->
+                    <header id="app-menu-content-header">
+                        <article class="header-left">
+                            <!-- Logo Universidad -->
+                            <figure class="logo-placeholder small">
+                                <img src="LogoUes.png" alt="Logo Universidad de El Salvador" class="logo-image">
+                            </figure>
+                            <section class="header-info">
+                                <span class="time" id="time-menu">5:45</span>
+                                <span class="university-text">Universidad de El Salvador</span>
+                            </section>
+                        </article>
+                        <article class="header-right">
+                            <a href="index.html" class="user-status-button clear-button">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                        </article>
+                    </header>
+                    
+                    <!-- Navigation Bar - Fixed -->
+                    <nav id="main-nav">
+                        <a href="objetivos.html" class="nav-item clear-button">Objetivos de la práctica docente</a>
+                        <a href="planeacion.html" class="nav-item clear-button">Planeación y organización</a>
+                        <a href="planificaciones.html" class="nav-item clear-button">Planificaciones de clases</a>
+                        <a href="evidencias.html" class="nav-item clear-button">Evidencias de la práctica docente</a>
+                        <a href="diario.html" class="nav-item clear-button">Diario reflexivo semanal</a>
+                        <a href="instrumentos.html" class="nav-item clear-button active">Instrumentos aplicados y resultados</a>
+                        <a href="evaluacion.html" class="nav-item clear-button">Evaluación y retroalimentación</a>
+                        <a href="mejora.html" class="nav-item clear-button">Propuesta de mejora</a>
+                        <a href="recursos.html" class="nav-item clear-button">Recursos tecnológicos aplicados</a>
+                        <a href="anexos.html" class="nav-item clear-button">Anexos</a>
+                    </nav>
+                    
+                    <!-- Content Section -->
+                    <section id="instrumentos-content" class="content-section">
+                        
+                        <!-- Hero Header -->
+                        <div class="hero-header">
+                            <div class="hero-icon">
+                                <i class="fa-solid fa-clipboard-check"></i>
+                            </div>
+                            <h1 class="main-title">Instrumentos Aplicados y Resultados</h1>
+                            <p class="hero-subtitle">Análisis de encuestas a estudiantes y docente</p>
+                        </div>
+                        
+                        <!-- Encuesta Estudiantes -->
+                        <div class="encuesta-section students">
+                            <div class="section-header">
+                                <div class="section-icon">
+                                    <i class="fa-solid fa-users"></i>
+                                </div>
+                                <div class="section-title-wrapper">
+                                    <h2 class="section-title">Encuesta a Estudiantes</h2>
+                                    <p class="section-subtitle">Percepción y valoración del proceso educativo</p>
+                                </div>
+                            </div>
+                            
+                            <div class="results-grid">
+                                
+                                <!-- Resultado 1: Clima y Ambiente -->
+                                <article class="result-card" data-aos="fade-up">
+                                    <div class="result-icon climate">
+                                        <i class="fa-solid fa-sun"></i>
+                                    </div>
+                                    <h3 class="result-title">Clima y Ambiente</h3>
+                                    <p class="result-text">
+                                        La mayoría de los estudiantes describió la dinámica general como "Bien bonita" y "Todo excelente 👌", percibiendo un entorno ordenado y propicio para la libre expresión y participación.
+                                    </p>
+                                    <div class="result-tag positive">
+                                        <i class="fa-solid fa-thumbs-up"></i>
+                                        <span>Valoración Positiva</span>
+                                    </div>
+                                </article>
+                                
+                                <!-- Resultado 2: Valoración de Actividades -->
+                                <article class="result-card" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="result-icon activities">
+                                        <i class="fa-solid fa-gamepad"></i>
+                                    </div>
+                                    <h3 class="result-title">Valoración de Actividades</h3>
+                                    <p class="result-text">
+                                        Las actividades que generaron mayor disfrute y aprendizaje fueron aquellas que promovieron la interacción, el dinamismo y los medios audiovisuales (mencionando específicamente "actividades de juegos o videos" y "diapositivas").
+                                    </p>
+                                    <div class="result-highlights">
+                                        <span class="mini-tag"><i class="fa-solid fa-play-circle"></i> Videos</span>
+                                        <span class="mini-tag"><i class="fa-solid fa-puzzle-piece"></i> Juegos</span>
+                                        <span class="mini-tag"><i class="fa-solid fa-presentation-screen"></i> Diapositivas</span>
+                                    </div>
+                                </article>
+                                
+                                <!-- Resultado 3: Apoyo Docente -->
+                                <article class="result-card" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="result-icon support">
+                                        <i class="fa-solid fa-hands-helping"></i>
+                                    </div>
+                                    <h3 class="result-title">Apoyo Docente</h3>
+                                    <p class="result-text">
+                                        Se valoró positivamente el estilo de apoyo, destacando la forma en que el practicante abordó las dudas: "En resolver las dudas explicándole al estudiante de mejor manera" y "asercandose para ayudarle a uno", lo que subraya una comunicación clara y empática.
+                                    </p>
+                                    <div class="result-tag positive">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <span>Comunicación Empática</span>
+                                    </div>
+                                </article>
+                                
+                                <!-- Resultado 4: Trabajo Colaborativo -->
+                                <article class="result-card" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="result-icon collaboration">
+                                        <i class="fa-solid fa-people-group"></i>
+                                    </div>
+                                    <h3 class="result-title">Trabajo Colaborativo</h3>
+                                    <p class="result-text">
+                                        Los estudiantes señalaron que las dinámicas de equipo se desarrollaron "de la mejor manera con la participación de todos", indicando un fuerte sentido de colaboración interna.
+                                    </p>
+                                    <div class="result-tag positive">
+                                        <i class="fa-solid fa-check-double"></i>
+                                        <span>Participación Activa</span>
+                                    </div>
+                                </article>
+                                
+                            </div>
+                        </div>
+                        
+                        <!-- Encuesta Docente -->
+                        <div class="encuesta-section teacher">
+                            <div class="section-header">
+                                <div class="section-icon">
+                                    <i class="fa-solid fa-chalkboard-user"></i>
+                                </div>
+                                <div class="section-title-wrapper">
+                                    <h2 class="section-title">Encuesta a Docente Titular</h2>
+                                    <p class="section-subtitle">Análisis metodológico y estratégico</p>
+                                </div>
+                            </div>
+                            
+                            <div class="teacher-results">
+                                
+                                <!-- Metodología -->
+                                <article class="teacher-card" data-aos="fade-right">
+                                    <div class="teacher-card-header">
+                                        <div class="teacher-icon methodology">
+                                            <i class="fa-solid fa-lightbulb"></i>
+                                        </div>
+                                        <h3 class="teacher-card-title">Metodología y Estrategias</h3>
+                                    </div>
+                                    <p class="teacher-card-text">
+                                        El docente titular describe su enfoque como dinámico, utilizando la investigación social, y favoreciendo el aprendizaje colaborativo a través de debates y juegos de rol para analizar temas y resolver problemas.
+                                    </p>
+                                </article>
+                                
+                                <!-- Planificación -->
+                                <article class="teacher-card" data-aos="fade-left">
+                                    <div class="teacher-card-header">
+                                        <div class="teacher-icon planning">
+                                            <i class="fa-solid fa-calendar-check"></i>
+                                        </div>
+                                        <h3 class="teacher-card-title">Planificación y Recursos</h3>
+                                    </div>
+                                    <p class="teacher-card-text">
+                                        La planificación se centra en el trabajo autónomo y colaborativo, balanceando la teoría con la práctica, la clase utiliza el modelo de Aula Invertida en un 50%, combinando el uso de recursos tecnológicos con materiales tradicionales (carteles, cuadernos).
+                                    </p>
+                                    <div class="percentage-badge">
+                                        <span class="percentage">50%</span>
+                                        <span class="label">Aula Invertida</span>
+                                    </div>
+                                </article>
+                                
+                                <!-- Fortalezas y Dificultades -->
+                                <article class="teacher-card split" data-aos="fade-up">
+                                    <div class="split-section strengths">
+                                        <div class="split-header">
+                                            <div class="split-icon">
+                                                <i class="fa-solid fa-trophy"></i>
+                                            </div>
+                                            <h4 class="split-title">Fortalezas del Grupo</h4>
+                                        </div>
+                                        <p class="split-text">
+                                            Las fortalezas más notorias del grupo radican en su capacidad de análisis, pensamiento crítico y una participación activa durante las tutorías.
+                                        </p>
+                                        <div class="split-tags">
+                                            <span class="split-tag"><i class="fa-solid fa-check"></i> Análisis</span>
+                                            <span class="split-tag"><i class="fa-solid fa-check"></i> Pensamiento crítico</span>
+                                            <span class="split-tag"><i class="fa-solid fa-check"></i> Participación</span>
+                                        </div>
+                                    </div>
+                                    <div class="split-divider"></div>
+                                    <div class="split-section difficulties">
+                                        <div class="split-header">
+                                            <div class="split-icon">
+                                                <i class="fa-solid fa-exclamation-circle"></i>
+                                            </div>
+                                            <h4 class="split-title">Dificultades Detectadas</h4>
+                                        </div>
+                                        <p class="split-text">
+                                            La principal dificultad detectada es la inasistencia de algunos estudiantes.
+                                        </p>
+                                        <div class="split-tags">
+                                            <span class="split-tag alert"><i class="fa-solid fa-user-xmark"></i> Inasistencia</span>
+                                        </div>
+                                    </div>
+                                </article>
+                                
+                                <!-- Intervención -->
+                                <article class="teacher-card" data-aos="fade-right">
+                                    <div class="teacher-card-header">
+                                        <div class="teacher-icon intervention">
+                                            <i class="fa-solid fa-hand-holding-heart"></i>
+                                        </div>
+                                        <h3 class="teacher-card-title">Intervención en Dificultades</h3>
+                                    </div>
+                                    <p class="teacher-card-text">
+                                        Para abordar los vacíos de aprendizaje, la estrategia es proporcionar un plan de recuperación al finalizar cada módulo, una práctica que busca apoyar a quienes quedan rezagados.
+                                    </p>
+                                </article>
+                                
+                                <!-- Valoración del Entorno -->
+                                <article class="teacher-card highlight" data-aos="fade-left">
+                                    <div class="teacher-card-header">
+                                        <div class="teacher-icon environment">
+                                            <i class="fa-solid fa-clock"></i>
+                                        </div>
+                                        <h3 class="teacher-card-title">Valoración del Entorno</h3>
+                                    </div>
+                                    <p class="teacher-card-text">
+                                        La docente percibe que el tiempo es un "enemigo" constante, señalando que, incluso con una planificación elaborada, siempre habrá estudiantes que queden con vacíos, lo cual subraya la necesidad de un refuerzo asincrónico.
+                                    </p>
+                                    <div class="insight-badge">
+                                        <i class="fa-solid fa-lightbulb"></i>
+                                        <span>Necesidad de refuerzo asincrónico</span>
+                                    </div>
+                                </article>
+                                
+                            </div>
+                        </div>
+                        
+                        <!-- Conclusión -->
+                        <div class="conclusion-section">
+                            <div class="conclusion-icon">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <h3 class="conclusion-title">Síntesis de Resultados</h3>
+                            <p class="conclusion-text">
+                                Los instrumentos aplicados revelan una valoración altamente positiva del proceso educativo por parte de los estudiantes, quienes destacan el ambiente colaborativo, las actividades dinámicas y el apoyo empático del practicante. Por su parte, la docente titular subraya la importancia de metodologías activas y colaborativas, reconociendo tanto las fortalezas del grupo como los desafíos que presenta la gestión del tiempo y la asistencia estudiantil.
+                            </p>
+                        </div>
+                        
+                    </section>
+                    
+                </article>
+            </section>
+        </main>
+        
+    </section>
+    <!-- ═══════════════════════════════════════════════════════════
+     🎨 FOOTER ESPECTACULAR - HTML
+     Copia este código al final de CADA página (antes de </body>)
+     ════════════════════════════════════════════════════════════ -->
+
+<!-- Footer Espectacular -->
+<footer class="spectacular-footer">
+    
+    <!-- Animated Background -->
+    <div class="footer-animated-bg">
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <!-- Las partículas se crean con JavaScript -->
+    </div>
+    
+    <!-- Wave Divider -->
+    <div class="footer-wave">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path class="wave-path" d="M0,0 C150,80 350,0 600,50 C850,100 1050,20 1200,80 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.3"/>
+            <path class="wave-path" d="M0,0 C200,60 400,20 600,70 C800,120 1000,40 1200,90 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.2" 
+                  style="animation-duration: 15s; animation-delay: -5s;"/>
+            <defs>
+                <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#42a5f5;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+    
+    <!-- Footer Content -->
+    <div class="footer-content">
+        
+        <!-- Footer Grid -->
+        <div class="footer-grid">
+            
+            <!-- Universidad -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Universidad
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎓</div>
+                    <div class="footer-item-text">Universidad de El Salvador</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏛️</div>
+                    <div class="footer-item-text">Facultad de Ciencias Naturales y Matematicas</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📚</div>
+                    <div class="footer-item-text">Licenciatura en Informática Educativa</div>
+                </div>
+            </div>
+            
+            <!-- Práctica Docente -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    Práctica Docente
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📖</div>
+                    <div class="footer-item-text">Lenguaje y Literatura</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏫</div>
+                    <div class="footer-item-text">Instituto Nacional "14 de Julio de 1875"</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📅</div>
+                    <div class="footer-item-text">Ciclo II - <span class="current-year">2025</span></div>
+                </div>
+            </div>
+            
+            <!-- Información -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Información
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎯</div>
+                    <div class="footer-item-text">Portafolio Digital Docente</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">💼</div>
+                    <div class="footer-item-text">Práctica Profesional</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">✨</div>
+                    <div class="footer-item-text">Evidencias y Reflexiones</div>
+                </div>
+            </div>
+            
+            <!-- Desarrollador -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-code"></i>
+                    Desarrollado por
+                </h3>
+                <div class="developer-card">
+                    <div class="developer-avatar">
+                        👨‍💻
+                    </div>
+                    <div class="developer-name">Carlos Antonio Salgado Romero</div>
+                    <div class="developer-role">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        Estudiante UES
+                    </div>
+                </div>
+                
+                <!-- Social Links (opcional) -->
+                <div class="social-links" style="margin-top: 20px; justify-content: center;">
+                    <a href="#" class="social-link" title="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <div class="copyright-text">
+                    <i class="fa-regular fa-copyright copyright-icon"></i>
+                    <span class="current-year">2025</span>
+                    <span>Universidad de El Salvador</span>
+                    <span>•</span>
+                    <span>Práctica Docente</span>
+                </div>
+                <div class="copyright-text">
+                    <span>Hecho con</span>
+                    <i class="fa-solid fa-heart copyright-heart"></i>
+                    <span>para la educación</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</footer>
+
+<!-- Scroll to Top Button -->
+<button class="scroll-to-top" title="Volver arriba">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+    <script src="script.js"></script>
+    <script src="instrumentos.js"></script>
+</body>
+</html>

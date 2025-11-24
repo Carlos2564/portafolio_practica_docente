@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logros Alcanzados - Carlos Antonio Salgado Romero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="objetivos.css">
+    <link rel="stylesheet" href="logros.css">
+</head>
+<body>
+    
+    <!-- App Container -->
+    <section id="app" class="logged-in">
+        
+        <!-- Background -->
+        <section id="app-background">
+            <div id="app-background-image" class="background-image"></div>
+        </section>
+        
+        <!-- Main Menu -->
+        <main id="app-menu">
+            <section id="app-menu-content-wrapper">
+                <article id="app-menu-content">
+                    
+                    <!-- Header con Logo y Hora -->
+                    <header id="app-menu-content-header">
+                        <article class="header-left">
+                            <!-- Logo Universidad -->
+                            <figure class="logo-placeholder small">
+                                <img src="LogoUes.png" alt="Logo Universidad de El Salvador" class="logo-image">
+                            </figure>
+                            <section class="header-info">
+                                <span class="time" id="time-menu">5:45</span>
+                                <span class="university-text">Universidad de El Salvador</span>
+                            </section>
+                        </article>
+                        <article class="header-right">
+                            <a href="index.html" class="user-status-button clear-button">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                        </article>
+                    </header>
+                    
+                    <!-- Navigation Bar - Fixed -->
+                    <nav id="main-nav">
+                        <a href="objetivos.html" class="nav-item clear-button">Objetivos de la práctica docente</a>
+                        <a href="planeacion.html" class="nav-item clear-button">Planeación y organización</a>
+                        <a href="planificaciones.html" class="nav-item clear-button">Planificaciones de clases</a>
+                        <a href="evidencias.html" class="nav-item clear-button">Evidencias de la práctica docente</a>
+                        <a href="diario.html" class="nav-item clear-button">Diario reflexivo semanal</a>
+                        <a href="instrumentos.html" class="nav-item clear-button">Instrumentos aplicados y resultados</a>
+                        <a href="evaluacion.html" class="nav-item clear-button">Evaluación y retroalimentación</a>
+                        <a href="mejora.html" class="nav-item clear-button">Propuesta de mejora</a>
+                        <a href="recursos.html" class="nav-item clear-button active">Recursos tecnológicos aplicados</a>
+                        <a href="anexos.html" class="nav-item clear-button">Anexos</a>
+                    </nav>
+                    
+                    <!-- Sub Navigation Bar -->
+                    <nav id="sub-nav">
+                        <div class="border-effect"></div>
+                        <ul>
+                            <li id="herramientas-tab">
+                                <a href="recursos.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.5 12H12M12 12H16.5M12 12V7.5M12 12V16.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Herramientas y experiencias</p>
+                                </a>
+                            </li>
+                            <li id="conclusiones-tab">
+                                <a href="conclusiones.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.75 12L10.58 14.83L16.25 9.17" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Conclusiones y valoración</p>
+                                </a>
+                            </li>
+                            <li id="logros-tab" class="active">
+                                <a href="logros.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12 2V9M12 15V22M22 12H15M9 12H2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Logros alcanzados</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <!-- Content Section -->
+                    <section id="logros-content" class="content-section">
+                        
+                        <!-- Hero Header -->
+                        <div class="hero-header">
+                            <div class="hero-icon">
+                                <i class="fa-solid fa-trophy"></i>
+                            </div>
+                            <h1 class="main-title">Logros Alcanzados</h1>
+                            <p class="hero-subtitle">Éxitos personales, pedagógicos y colaborativos</p>
+                        </div>
+                        
+                        <!-- Logros Grid -->
+                        <div class="logros-section">
+                            <div class="section-header centered">
+                                <h2 class="section-title">Logros Principales</h2>
+                            </div>
+                            
+                            <div class="logros-grid">
+                                
+                                <!-- Logro Personal -->
+                                <article class="logro-card personal" data-aos="fade-up">
+                                    <div class="logro-header">
+                                        <div class="logro-icon personal">
+                                            <i class="fa-solid fa-user-check"></i>
+                                        </div>
+                                        <div class="logro-badge personal">
+                                            <span>Logro Personal</span>
+                                        </div>
+                                    </div>
+                                    <h3 class="logro-title">Superación del Miedo Escénico</h3>
+                                    <p class="logro-text">
+                                        Superación del miedo escénico inicial, logrando una comunicación fluida y un alto nivel con un grupo que resultó ser muy activo.
+                                    </p>
+                                    <div class="logro-metrics">
+                                        <div class="metric-box">
+                                            <i class="fa-solid fa-comments"></i>
+                                            <span>Comunicación fluida</span>
+                                        </div>
+                                        <div class="metric-box">
+                                            <i class="fa-solid fa-users"></i>
+                                            <span>Grupo activo</span>
+                                        </div>
+                                    </div>
+                                </article>
+                                
+                                <!-- Logro Pedagógico -->
+                                <article class="logro-card pedagogico" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="logro-header">
+                                        <div class="logro-icon pedagogico">
+                                            <i class="fa-solid fa-graduation-cap"></i>
+                                        </div>
+                                        <div class="logro-badge pedagogico">
+                                            <span>Logro Pedagógico</span>
+                                        </div>
+                                    </div>
+                                    <h3 class="logro-title">Integración Tecnológica Exitosa</h3>
+                                    <p class="logro-text">
+                                        Integración exitosa de la tecnología (proyector, Canvas) en una clase de Lenguaje y Literatura, demostrando la transversalidad de la Informática Educativa.
+                                    </p>
+                                    <div class="logro-metrics">
+                                        <div class="metric-box">
+                                            <i class="fa-solid fa-laptop"></i>
+                                            <span>Tecnología integrada</span>
+                                        </div>
+                                        <div class="metric-box">
+                                            <i class="fa-solid fa-arrows-turn-to-dots"></i>
+                                            <span>Transversalidad</span>
+                                        </div>
+                                    </div>
+                                </article>
+                                
+                                <!-- Logro Colaborativo -->
+                                <article class="logro-card colaborativo" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="logro-header">
+                                        <div class="logro-icon colaborativo">
+                                            <i class="fa-solid fa-handshake"></i>
+                                        </div>
+                                        <div class="logro-badge colaborativo">
+                                            <span>Logro Colaborativo</span>
+                                        </div>
+                                    </div>
+                                    <h3 class="logro-title">Contribución Administrativa</h3>
+                                    <p class="logro-text">
+                                        Contribución tangible a la carga administrativa de la docente titular Licda. Nélida Josefina Castillo de Saravia, siendo un "elemento de provecho" en la elaboración de recursos y evaluaciones.
+                                    </p>
+                                    <div class="logro-metrics">
+                                        <div class="metric-box">
+                                            <i class="fa-solid fa-file-pen"></i>
+                                            <span>Recursos creados</span>
+                                        </div>
+                                        <div class="metric-box">
+                                            <i class="fa-solid fa-clipboard-check"></i>
+                                            <span>Evaluaciones</span>
+                                        </div>
+                                    </div>
+                                </article>
+                                
+                            </div>
+                        </div>
+                        
+                        <!-- Áreas de Mejora -->
+                        <div class="mejora-section">
+                            <div class="section-header centered">
+                                <div class="section-icon">
+                                    <i class="fa-solid fa-arrow-trend-up"></i>
+                                </div>
+                                <h2 class="section-title">Áreas de Mejora</h2>
+                            </div>
+                            
+                            <div class="mejora-grid">
+                                
+                                <!-- Mejora 1 -->
+                                <article class="mejora-card" data-aos="fade-right">
+                                    <div class="mejora-numero">01</div>
+                                    <div class="mejora-icon">
+                                        <i class="fa-solid fa-brain"></i>
+                                    </div>
+                                    <h4 class="mejora-title">Gestión de la Ansiedad Inicial</h4>
+                                    <p class="mejora-text">
+                                        Si bien superé el reto de expresarme, necesito desarrollar estrategias de gestión emocional que me permitan iniciar las sesiones con la misma fluidez y confianza que adquiero a mitad de la clase.
+                                    </p>
+                                </article>
+                                
+                                <!-- Mejora 2 -->
+                                <article class="mejora-card" data-aos="fade-left">
+                                    <div class="mejora-numero">02</div>
+                                    <div class="mejora-icon">
+                                        <i class="fa-solid fa-clock"></i>
+                                    </div>
+                                    <h4 class="mejora-title">Optimización del Tiempo</h4>
+                                    <p class="mejora-text">
+                                        Mejorar la capacidad de resumir y priorizar contenidos extensos para asegurar que la agenda de clase se cumpla de manera más consistente, dedicando más tiempo a la interacción y menos a la exposición del contenido teórico.
+                                    </p>
+                                </article>
+                                
+                            </div>
+                        </div>
+                        
+                        <!-- Proyección Profesional -->
+                        <div class="proyeccion-section">
+                            <div class="proyeccion-header">
+                                <div class="proyeccion-icon">
+                                    <i class="fa-solid fa-rocket"></i>
+                                </div>
+                                <h2 class="proyeccion-title">Proyección Profesional</h2>
+                                <p class="proyeccion-subtitle">Como Docente de Informática Educativa</p>
+                            </div>
+                            
+                            <div class="proyeccion-content">
+                                <p class="proyeccion-text main">
+                                    Mi proyección profesional se consolida en la convicción de que el docente del futuro es un diseñador de experiencias de aprendizaje digitales, aspiro a un rol que combine la enseñanza directa de la informática con la mentoría de profesores de otras áreas para que incorporen herramientas como Canvas, Genially y otras TICs en sus metodologías.
+                                </p>
+                                
+                                <div class="vision-boxes">
+                                    <div class="vision-box">
+                                        <div class="vision-icon">
+                                            <i class="fa-solid fa-palette"></i>
+                                        </div>
+                                        <h5 class="vision-title">Diseñador de Experiencias</h5>
+                                        <p class="vision-text">Crear experiencias de aprendizaje digitales innovadoras</p>
+                                    </div>
+                                    
+                                    <div class="vision-box">
+                                        <div class="vision-icon">
+                                            <i class="fa-solid fa-users-between-lines"></i>
+                                        </div>
+                                        <h5 class="vision-title">Mentoría Transversal</h5>
+                                        <p class="vision-text">Apoyar a profesores en la integración de TICs</p>
+                                    </div>
+                                    
+                                    <div class="vision-box">
+                                        <div class="vision-icon">
+                                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                        </div>
+                                        <h5 class="vision-title">Democratizar Creatividad</h5>
+                                        <p class="vision-text">Hacer accesible la creatividad digital a todos</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="meta-final">
+                                    <div class="meta-icon">
+                                        <i class="fa-solid fa-bullseye"></i>
+                                    </div>
+                                    <p class="meta-text">
+                                        Mi meta es ser un profesional que no solo es de código y software, sino que utiliza esa pericia técnica para democratizar la creatividad, fomentar la oratoria digital y preparar a los estudiantes para los desafíos tecnológicos y comunicacionales del siglo XXI, esta práctica docente fue el primer paso firme hacia la materialización de esa visión.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </section>
+                    
+                </article>
+            </section>
+        </main>
+        
+    </section>
+    <!-- ═══════════════════════════════════════════════════════════
+     🎨 FOOTER ESPECTACULAR - HTML
+     Copia este código al final de CADA página (antes de </body>)
+     ════════════════════════════════════════════════════════════ -->
+
+<!-- Footer Espectacular -->
+<footer class="spectacular-footer">
+    
+    <!-- Animated Background -->
+    <div class="footer-animated-bg">
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <!-- Las partículas se crean con JavaScript -->
+    </div>
+    
+    <!-- Wave Divider -->
+    <div class="footer-wave">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path class="wave-path" d="M0,0 C150,80 350,0 600,50 C850,100 1050,20 1200,80 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.3"/>
+            <path class="wave-path" d="M0,0 C200,60 400,20 600,70 C800,120 1000,40 1200,90 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.2" 
+                  style="animation-duration: 15s; animation-delay: -5s;"/>
+            <defs>
+                <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#42a5f5;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+    
+    <!-- Footer Content -->
+    <div class="footer-content">
+        
+        <!-- Footer Grid -->
+        <div class="footer-grid">
+            
+            <!-- Universidad -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Universidad
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎓</div>
+                    <div class="footer-item-text">Universidad de El Salvador</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏛️</div>
+                    <div class="footer-item-text">Facultad de Ciencias Naturales y Matematicas</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📚</div>
+                    <div class="footer-item-text">Licenciatura en Informática Educativa</div>
+                </div>
+            </div>
+            
+            <!-- Práctica Docente -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    Práctica Docente
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📖</div>
+                    <div class="footer-item-text">Lenguaje y Literatura</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏫</div>
+                    <div class="footer-item-text">Instituto Nacional "14 de Julio de 1875"</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📅</div>
+                    <div class="footer-item-text">Ciclo II - <span class="current-year">2025</span></div>
+                </div>
+            </div>
+            
+            <!-- Información -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Información
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎯</div>
+                    <div class="footer-item-text">Portafolio Digital Docente</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">💼</div>
+                    <div class="footer-item-text">Práctica Profesional</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">✨</div>
+                    <div class="footer-item-text">Evidencias y Reflexiones</div>
+                </div>
+            </div>
+            
+            <!-- Desarrollador -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-code"></i>
+                    Desarrollado por
+                </h3>
+                <div class="developer-card">
+                    <div class="developer-avatar">
+                        👨‍💻
+                    </div>
+                    <div class="developer-name">Carlos Antonio Salgado Romero</div>
+                    <div class="developer-role">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        Estudiante UES
+                    </div>
+                </div>
+                
+                <!-- Social Links (opcional) -->
+                <div class="social-links" style="margin-top: 20px; justify-content: center;">
+                    <a href="#" class="social-link" title="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <div class="copyright-text">
+                    <i class="fa-regular fa-copyright copyright-icon"></i>
+                    <span class="current-year">2025</span>
+                    <span>Universidad de El Salvador</span>
+                    <span>•</span>
+                    <span>Práctica Docente</span>
+                </div>
+                <div class="copyright-text">
+                    <span>Hecho con</span>
+                    <i class="fa-solid fa-heart copyright-heart"></i>
+                    <span>para la educación</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</footer>
+
+<!-- Scroll to Top Button -->
+<button class="scroll-to-top" title="Volver arriba">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+    <script src="logros.js"></script>
+</body>
+</html>

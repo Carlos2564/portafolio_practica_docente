@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico Educativo - Carlos Antonio Salgado Romero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="objetivos.css">
+    <link rel="stylesheet" href="planeacion.css">
+</head>
+<body>
+    
+    <!-- App Container -->
+    <section id="app" class="logged-in">
+        
+        <!-- Background -->
+        <section id="app-background">
+            <div id="app-background-image" class="background-image"></div>
+        </section>
+        
+        <!-- Main Menu -->
+        <main id="app-menu">
+            <section id="app-menu-content-wrapper">
+                <article id="app-menu-content">
+                    
+                    <!-- Header con Logo y Hora -->
+                    <header id="app-menu-content-header">
+                        <article class="header-left">
+                            <!-- Logo Universidad -->
+                            <figure class="logo-placeholder small">
+                                <img src="LogoUes.png" alt="Logo Universidad de El Salvador" class="logo-image">
+                            </figure>
+                            <section class="header-info">
+                                <span class="time" id="time-menu">5:45</span>
+                                <span class="university-text">Universidad de El Salvador</span>
+                            </section>
+                        </article>
+                        <article class="header-right">
+                            <a href="index.html" class="user-status-button clear-button">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                        </article>
+                    </header>
+                    
+                    <!-- Navigation Bar - Fixed -->
+                    <nav id="main-nav">
+                        <a href="objetivos.html" class="nav-item clear-button">Objetivos de la práctica docente</a>
+                        <a href="planeacion.html" class="nav-item clear-button active">Planeación y organización</a>
+                        <a href="planificaciones.html" class="nav-item clear-button">Planificaciones de clases</a>
+                        <a href="evidencias.html" class="nav-item clear-button">Evidencias de la práctica docente</a>
+                        <a href="diario.html" class="nav-item clear-button">Diario reflexivo semanal</a>
+                        <a href="instrumentos.html" class="nav-item clear-button">Instrumentos aplicados y resultados</a>
+                        <a href="evaluacion.html" class="nav-item clear-button">Evaluación y retroalimentación</a>
+                        <a href="mejora.html" class="nav-item clear-button">Propuesta de mejora</a>
+                        <a href="recursos.html" class="nav-item clear-button">Recursos tecnológicos aplicados</a>
+                        <a href="anexos.html" class="nav-item clear-button">Anexos</a>
+                    </nav>
+                    
+                    <!-- Sub Navigation Bar -->
+                    <nav id="sub-nav">
+                        <div class="border-effect"></div>
+                        <ul>
+                            <li id="diagnostico-tab" class="active">
+                                <a href="diagnostico_educativo.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M15.5 9.75C16.0523 9.75 16.5 9.30228 16.5 8.75C16.5 8.19772 16.0523 7.75 15.5 7.75C14.9477 7.75 14.5 8.19772 14.5 8.75C14.5 9.30228 14.9477 9.75 15.5 9.75Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M8.5 9.75C9.05228 9.75 9.5 9.30228 9.5 8.75C9.5 8.19772 9.05228 7.75 8.5 7.75C7.94772 7.75 7.5 8.19772 7.5 8.75C7.5 9.30228 7.94772 9.75 8.5 9.75Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M8.5 13.5H10C10.83 13.5 11.5 14.17 11.5 15C11.5 15.83 10.83 16.5 10 16.5H8.5C7.67 16.5 7 15.83 7 15" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M13.5 16.5C14.7426 16.5 15.75 15.4926 15.75 14.25C15.75 13.0074 14.7426 12 13.5 12C12.2574 12 11.25 13.0074 11.25 14.25C11.25 15.4926 12.2574 16.5 13.5 16.5Z" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Diagnóstico educativo</p>
+                                </a>
+                            </li>
+                            <li id="foda-tab">
+                                <a href="analisis_foda.html" class="sub-nav-link">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 12.98V15C2 20 4 22 9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.5 11.29L10.59 14.38L16.5 8.46997" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Análisis FODA</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <!-- Content Section -->
+                    <section id="diagnostico-content" class="content-section">
+                        
+                        <!-- Hero Header -->
+                        <div class="hero-header">
+                            <div class="hero-icon">
+                                <i class="fa-solid fa-clipboard-check"></i>
+                            </div>
+                            <h1 class="main-title">Diagnóstico Educativo</h1>
+                            <p class="hero-subtitle">Análisis del contexto y necesidades</p>
+                        </div>
+                        
+                        <!-- SECCIÓN 1: IMAGEN GRANDE COMPLETA -->
+                        <div class="image-showcase">
+                            <div class="showcase-container">
+                                <div class="showcase-badge">
+                                    <i class="fa-solid fa-image"></i>
+                                    <span>DIAGRAMA DE GANTT</span>
+                                </div>
+                                <div class="showcase-image-wrapper">
+                                    
+                                    <img src="diagrama_gantt.jpg" alt="Diagnóstico Educativo Completo" class="showcase-image" id="mainImage" />
+                                    <!-- Botón para ver en pantalla completa -->
+                                    <button class="fullscreen-btn" id="fullscreenBtn">
+                                        <i class="fa-solid fa-expand"></i>
+                                    </button>
+                                    <!-- Botón de zoom -->
+                                    <div class="zoom-controls">
+                                        <button class="zoom-btn" data-action="in">
+                                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                        </button>
+                                        <button class="zoom-btn" data-action="out">
+                                            <i class="fa-solid fa-magnifying-glass-minus"></i>
+                                        </button>
+                                        <button class="zoom-btn" data-action="reset">
+                                            <i class="fa-solid fa-arrows-rotate"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Divisor Espectacular -->
+                        <div class="magic-divider">
+                            <div class="divider-line-animated"></div>
+                            <div class="divider-center">
+                                <div class="divider-glow"></div>
+                                <i class="fa-solid fa-images"></i>
+                            </div>
+                            <div class="divider-line-animated"></div>
+                        </div>
+                        
+                        <!-- SECCIÓN 2: CARRUSEL ESPECTACULAR -->
+                        <div class="gallery-section">
+                            <div class="gallery-header">
+                                <div class="gallery-badge">
+                                    <i class="fa-solid fa-photo-film"></i>
+                                    <span>Galería de Evidencias</span>
+                                </div>
+                                <h2 class="gallery-title">Documentación Visual</h2>
+                                <p class="gallery-subtitle">Registros fotográficos del diagnóstico</p>
+                            </div>
+                            
+                            <!-- Carrusel Único Espectacular -->
+                            <div class="spectacular-carousel">
+                                <div class="carousel-main-container">
+                                    <!-- Track del carrusel -->
+                                    <div class="carousel-track-wrapper">
+                                        <div class="carousel-track" id="spectacularTrack">
+                                            
+                                            <!-- ========================================
+                                                 🎡 SLIDE 1 DEL CARRUSEL
+                                                 Cambia: src="..." y los textos
+                                            ========================================= -->
+                                            <div class="carousel-item">
+                                                <div class="item-inner">
+                                                    <div class="item-image">
+                                                        <img src="jornada1.jpg" alt="Evidencia 1" />
+                                                        <div class="item-overlay">
+                                                            <div class="overlay-content">
+                                                                <i class="fa-solid fa-search-plus"></i>
+                                                                <p>Click para ampliar</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-info">
+                                                        <h4 class="item-title">Jornada de practica docente 1</h4>
+                                                        <p class="item-description"></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- ========================================
+                                                 🎡 SLIDE 2 DEL CARRUSEL
+                                            ========================================= -->
+                                            <div class="carousel-item">
+                                                <div class="item-inner">
+                                                    <div class="item-image">
+                                                        <img src="jornada2.jpg" alt="Evidencia 2" />
+                                                        <div class="item-overlay">
+                                                            <div class="overlay-content">
+                                                                <i class="fa-solid fa-search-plus"></i>
+                                                                <p>Click para ampliar</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-info">
+                                                        <h4 class="item-title">Jornada de practica docente 2</h4>
+                                                        <p class="item-description"></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- ========================================
+                                                 🎡 SLIDE 3 DEL CARRUSEL
+                                            ========================================= -->
+                                            <div class="carousel-item">
+                                                <div class="item-inner">
+                                                    <div class="item-image">
+                                                        <img src="jornada3.jpg" alt="Evidencia 3" />
+                                                        <div class="item-overlay">
+                                                            <div class="overlay-content">
+                                                                <i class="fa-solid fa-search-plus"></i>
+                                                                <p>Click para ampliar</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-info">
+                                                        <h4 class="item-title">Jornada de practica docente 3</h4>
+                                                        <p class="item-description"></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- ========================================
+                                                 🎡 SLIDE 4 DEL CARRUSEL
+                                            ========================================= -->
+                                            <div class="carousel-item">
+                                                <div class="item-inner">
+                                                    <div class="item-image">
+                                                        <img src="jornada4.jpg" alt="Evidencia 4" />
+                                                        <div class="item-overlay">
+                                                            <div class="overlay-content">
+                                                                <i class="fa-solid fa-search-plus"></i>
+                                                                <p>Click para ampliar</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-info">
+                                                        <h4 class="item-title">Jornada de practica docente 4</h4>
+                                                        <p class="item-description"></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- ========================================
+                                                 🎡 SLIDE 5 DEL CARRUSEL
+                                            ========================================= -->
+                                            <div class="carousel-item">
+                                                <div class="item-inner">
+                                                    <div class="item-image">
+                                                        <img src="jornada5.jpg" alt="Evidencia 5" />
+                                                        <div class="item-overlay">
+                                                            <div class="overlay-content">
+                                                                <i class="fa-solid fa-search-plus"></i>
+                                                                <p>Click para ampliar</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-info">
+                                                        <h4 class="item-title">Jornada de practica docente 5</h4>
+                                                        <p class="item-description"></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Navegación -->
+                                    <button class="carousel-nav-btn prev-btn">
+                                        <i class="fa-solid fa-angle-left"></i>
+                                    </button>
+                                    <button class="carousel-nav-btn next-btn">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </button>
+                                    
+                                    <!-- Progress Bar -->
+                                    <div class="carousel-progress">
+                                        <div class="progress-bar"></div>
+                                    </div>
+
+                                    <div class="carousel-thumbnails" id="thumbnails">
+                                        <div class="thumbnail active" data-index="0">
+                                            <img src="jornada1.jpg" alt="Thumb 1" />
+                                        </div>
+                                        <div class="thumbnail" data-index="1">
+                                            <img src="jornada2.jpg" alt="Thumb 2" />
+                                        </div>
+                                        <div class="thumbnail" data-index="2">
+                                            <img src="jornada3.jpg" alt="Thumb 3" />
+                                        </div>
+                                        <div class="thumbnail" data-index="3">
+                                            <img src="jornada4.jpg" alt="Thumb 4" />
+                                        </div>
+                                        <div class="thumbnail" data-index="4">
+                                            <img src="jornada5.jpg" alt="Thumb 5" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </section>
+                    
+                </article>
+            </section>
+        </main>
+        
+    </section>
+    
+    <!-- Modal para imagen en pantalla completa -->
+    <div class="fullscreen-modal" id="fullscreenModal">
+        <button class="modal-close" id="modalClose">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <img src="" alt="Imagen en pantalla completa" class="modal-image" id="modalImage" />
+    </div>
+    <!-- ═══════════════════════════════════════════════════════════
+     🎨 FOOTER ESPECTACULAR - HTML
+     Copia este código al final de CADA página (antes de </body>)
+     ════════════════════════════════════════════════════════════ -->
+
+<!-- Footer Espectacular -->
+<footer class="spectacular-footer">
+    
+    <!-- Animated Background -->
+    <div class="footer-animated-bg">
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <!-- Las partículas se crean con JavaScript -->
+    </div>
+    
+    <!-- Wave Divider -->
+    <div class="footer-wave">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path class="wave-path" d="M0,0 C150,80 350,0 600,50 C850,100 1050,20 1200,80 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.3"/>
+            <path class="wave-path" d="M0,0 C200,60 400,20 600,70 C800,120 1000,40 1200,90 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.2" 
+                  style="animation-duration: 15s; animation-delay: -5s;"/>
+            <defs>
+                <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#42a5f5;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+    
+    <!-- Footer Content -->
+    <div class="footer-content">
+        
+        <!-- Footer Grid -->
+        <div class="footer-grid">
+            
+            <!-- Universidad -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Universidad
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎓</div>
+                    <div class="footer-item-text">Universidad de El Salvador</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏛️</div>
+                    <div class="footer-item-text">Facultad de Ciencias Naturales y Matematicas</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📚</div>
+                    <div class="footer-item-text">Licenciatura en Informática Educativa</div>
+                </div>
+            </div>
+            
+            <!-- Práctica Docente -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    Práctica Docente
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📖</div>
+                    <div class="footer-item-text">Lenguaje y Literatura</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏫</div>
+                    <div class="footer-item-text">Instituto Nacional "14 de Julio de 1875"</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📅</div>
+                    <div class="footer-item-text">Ciclo II - <span class="current-year">2025</span></div>
+                </div>
+            </div>
+            
+            <!-- Información -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Información
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎯</div>
+                    <div class="footer-item-text">Portafolio Digital Docente</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">💼</div>
+                    <div class="footer-item-text">Práctica Profesional</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">✨</div>
+                    <div class="footer-item-text">Evidencias y Reflexiones</div>
+                </div>
+            </div>
+            
+            <!-- Desarrollador -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-code"></i>
+                    Desarrollado por
+                </h3>
+                <div class="developer-card">
+                    <div class="developer-avatar">
+                        👨‍💻
+                    </div>
+                    <div class="developer-name">Carlos Antonio Salgado Romero</div>
+                    <div class="developer-role">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        Estudiante UES
+                    </div>
+                </div>
+                
+                <!-- Social Links (opcional) -->
+                <div class="social-links" style="margin-top: 20px; justify-content: center;">
+                    <a href="#" class="social-link" title="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <div class="copyright-text">
+                    <i class="fa-regular fa-copyright copyright-icon"></i>
+                    <span class="current-year">2025</span>
+                    <span>Universidad de El Salvador</span>
+                    <span>•</span>
+                    <span>Práctica Docente</span>
+                </div>
+                <div class="copyright-text">
+                    <span>Hecho con</span>
+                    <i class="fa-solid fa-heart copyright-heart"></i>
+                    <span>para la educación</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</footer>
+
+<!-- Scroll to Top Button -->
+<button class="scroll-to-top" title="Volver arriba">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+    <script src="script.js"></script>
+    <script src="planeacion.js"></script>
+</body>
+</html>

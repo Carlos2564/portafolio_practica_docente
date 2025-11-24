@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflexión sobre el Diseño - Carlos Antonio Salgado Romero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="objetivos.css">
+    <link rel="stylesheet" href="reflexion_diseno.css">
+</head>
+<body>
+    
+    <!-- App Container -->
+    <section id="app" class="logged-in">
+        
+        <!-- Background -->
+        <section id="app-background">
+            <div id="app-background-image" class="background-image"></div>
+        </section>
+        
+        <!-- Main Menu -->
+        <main id="app-menu">
+            <section id="app-menu-content-wrapper">
+                <article id="app-menu-content">
+                    
+                    <!-- Header con Logo y Hora -->
+                    <header id="app-menu-content-header">
+                        <article class="header-left">
+                            <!-- Logo Universidad -->
+                            <figure class="logo-placeholder small">
+                                <img src="LogoUes.png" alt="Logo Universidad de El Salvador" class="logo-image">
+                            </figure>
+                            <section class="header-info">
+                                <span class="time" id="time-menu">5:45</span>
+                                <span class="university-text">Universidad de El Salvador</span>
+                            </section>
+                        </article>
+                        <article class="header-right">
+                            <a href="index.html" class="user-status-button clear-button">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                        </article>
+                    </header>
+                    
+                    <!-- Navigation Bar - Fixed -->
+                    <nav id="main-nav">
+                        <a href="objetivos.html" class="nav-item clear-button">Objetivos de la práctica docente</a>
+                        <a href="planeacion.html" class="nav-item clear-button">Planeación y organización</a>
+                        <a href="planificaciones.html" class="nav-item clear-button">Planificaciones de clases</a>
+                        <a href="evidencias.html" class="nav-item clear-button">Evidencias de la práctica docente</a>
+                        <a href="diario.html" class="nav-item clear-button">Diario reflexivo semanal</a>
+                        <a href="instrumentos.html" class="nav-item clear-button">Instrumentos aplicados y resultados</a>
+                        <a href="evaluacion.html" class="nav-item clear-button">Evaluación y retroalimentación</a>
+                        <a href="mejora.html" class="nav-item clear-button active">Propuesta de mejora</a>
+                        <a href="recursos.html" class="nav-item clear-button">Recursos tecnológicos aplicados</a>
+                        <a href="anexos.html" class="nav-item clear-button">Anexos</a>
+                    </nav>
+                    
+                    <!-- Sub Navigation Bar -->
+                    <nav id="sub-nav">
+                        <div class="border-effect"></div>
+                        <ul>
+                            <li id="propuesta-tab">
+                                <a href="mejora.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M15.5 9.75L10.5 14.75L8.5 12.75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Justificación y objetivos</p>
+                                </a>
+                            </li>
+                            <li id="recursos-tab">
+                                <a href="recursos_necesarios.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.17 7.44L12 12.55L20.77 7.46M12 21.61V12.54" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9.93 2.48L4.59 5.45C3.38 6.12 2.39 7.80 2.39 9.18V14.83C2.39 16.21 3.38 17.89 4.59 18.56L9.93 21.53C11.07 22.16 12.94 22.16 14.08 21.53L19.42 18.56C20.63 17.89 21.62 16.21 21.62 14.83V9.18C21.62 7.80 20.63 6.12 19.42 5.45L14.08 2.48C12.93 1.84 11.07 1.84 9.93 2.48Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Recursos necesarios</p>
+                                </a>
+                            </li>
+                            <li id="reflexion-tab" class="active">
+                                <a href="reflexion_diseno.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M8 12H16M12 16V8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Reflexión sobre el diseño</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <!-- Content Section -->
+                    <section id="reflexion-content" class="content-section">
+                        
+                        <!-- Hero Header -->
+                        <div class="hero-header">
+                            <div class="hero-icon">
+                                <i class="fa-solid fa-brain"></i>
+                            </div>
+                            <h1 class="main-title">Reflexión sobre el Diseño</h1>
+                            <p class="hero-subtitle">Análisis crítico de la propuesta</p>
+                        </div>
+                        
+                        <!-- Reflexiones Grid -->
+                        <div class="reflexiones-grid">
+                            
+                            <!-- Reflexión 1: Coherencia Diagnóstica -->
+                            <article class="reflexion-card" data-aos="fade-up">
+                                <div class="reflexion-header">
+                                    <div class="reflexion-icon diagnostic">
+                                        <i class="fa-solid fa-magnifying-glass-chart"></i>
+                                    </div>
+                                    <div class="reflexion-numero">01</div>
+                                </div>
+                                <h3 class="reflexion-title">Coherencia Diagnóstica</h3>
+                                <div class="reflexion-body">
+                                    <p class="reflexion-text">
+                                        El análisis FODA identificó claramente que el temor a hablar en público (Debilidad) contrastaba con la excelente receptividad del grupo y su manejo de dispositivos móviles (Oportunidad). Diseñar un módulo digital fue la respuesta más lógica y eficiente para transformar esa Debilidad en una Fortaleza, utilizando la tecnología como puente, no como un fin.
+                                    </p>
+                                    <div class="foda-connection">
+                                        <div class="foda-item weakness">
+                                            <i class="fa-solid fa-triangle-exclamation"></i>
+                                            <span>Debilidad: Temor al público</span>
+                                        </div>
+                                        <div class="foda-arrow">
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </div>
+                                        <div class="foda-item opportunity">
+                                            <i class="fa-solid fa-mobile-screen"></i>
+                                            <span>Oportunidad: Destreza digital</span>
+                                        </div>
+                                        <div class="foda-arrow">
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </div>
+                                        <div class="foda-item strength">
+                                            <i class="fa-solid fa-shield-check"></i>
+                                            <span>Fortaleza: Comunicación efectiva</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            
+                            <!-- Reflexión 2: Eficiencia y Costo -->
+                            <article class="reflexion-card" data-aos="fade-up" data-aos-delay="100">
+                                <div class="reflexion-header">
+                                    <div class="reflexion-icon efficiency">
+                                        <i class="fa-solid fa-chart-pie"></i>
+                                    </div>
+                                    <div class="reflexion-numero">02</div>
+                                </div>
+                                <h3 class="reflexion-title">Eficiencia y Costo</h3>
+                                <div class="reflexion-body">
+                                    <p class="reflexion-text">
+                                        Como futuro Licenciado en Informática Educativa, mi deber es proponer soluciones que maximicen el impacto con recursos mínimos. Esta propuesta se basa en plataformas gratuitas y dispositivos ya disponibles, lo que garantiza su sostenibilidad y aplicabilidad inmediata en la Modalidad Flexible.
+                                    </p>
+                                    <div class="efficiency-metrics">
+                                        <div class="efficiency-item">
+                                            <div class="efficiency-value">
+                                                <span class="value-number">$0</span>
+                                                <span class="value-label">Costo adicional</span>
+                                            </div>
+                                        </div>
+                                        <div class="efficiency-item">
+                                            <div class="efficiency-value">
+                                                <span class="value-number">100%</span>
+                                                <span class="value-label">Sostenible</span>
+                                            </div>
+                                        </div>
+                                        <div class="efficiency-item">
+                                            <div class="efficiency-value">
+                                                <span class="value-number">∞</span>
+                                                <span class="value-label">Escalable</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            
+                            <!-- Reflexión 3: Compromiso con la Informática Educativa -->
+                            <article class="reflexion-card" data-aos="fade-up" data-aos-delay="200">
+                                <div class="reflexion-header">
+                                    <div class="reflexion-icon commitment">
+                                        <i class="fa-solid fa-graduation-cap"></i>
+                                    </div>
+                                    <div class="reflexion-numero">03</div>
+                                </div>
+                                <h3 class="reflexion-title">Compromiso con la Informática Educativa</h3>
+                                <div class="reflexion-body">
+                                    <p class="reflexion-text">
+                                        La iniciativa de utilizar herramientas de diseño y grabación de video para modelar la oratoria subraya mi visión: la tecnología debe mejorar las habilidades esenciales (como la comunicación), no solo enseñar temas de computación. Es una aplicación práctica de la teoría pedagógica a través de medios digitales.
+                                    </p>
+                                    <div class="vision-statement">
+                                        <div class="vision-icon">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                        <p class="vision-text">
+                                            La tecnología debe mejorar las habilidades esenciales, no solo enseñar temas de computación
+                                        </p>
+                                        <div class="vision-icon">
+                                            <i class="fa-solid fa-quote-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="commitment-tags">
+                                        <span class="commitment-tag">
+                                            <i class="fa-solid fa-lightbulb"></i>
+                                            Teoría pedagógica
+                                        </span>
+                                        <span class="commitment-tag">
+                                            <i class="fa-solid fa-laptop"></i>
+                                            Medios digitales
+                                        </span>
+                                        <span class="commitment-tag">
+                                            <i class="fa-solid fa-comments"></i>
+                                            Comunicación efectiva
+                                        </span>
+                                    </div>
+                                </div>
+                            </article>
+                            
+                        </div>
+                        
+                        <!-- Conclusión Final -->
+                        <div class="conclusion-final">
+                            <div class="conclusion-icon">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h3 class="conclusion-title">Síntesis Reflexiva</h3>
+                            <p class="conclusion-text">
+                                Esta propuesta representa la integración coherente entre diagnóstico, recursos disponibles y visión profesional. Como futuro Licenciado en Informática Educativa, he demostrado la capacidad de transformar una debilidad identificada en una oportunidad de crecimiento mediante el uso estratégico y sostenible de la tecnología educativa, alineando mi práctica con los principios fundamentales de mi formación profesional.
+                            </p>
+                            <div class="conclusion-pillars">
+                                <div class="pillar-item">
+                                    <i class="fa-solid fa-clipboard-check"></i>
+                                    <span>Diagnóstico</span>
+                                </div>
+                                <div class="pillar-plus">+</div>
+                                <div class="pillar-item">
+                                    <i class="fa-solid fa-box"></i>
+                                    <span>Recursos</span>
+                                </div>
+                                <div class="pillar-plus">+</div>
+                                <div class="pillar-item">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span>Visión</span>
+                                </div>
+                                <div class="pillar-equals">=</div>
+                                <div class="pillar-item result">
+                                    <i class="fa-solid fa-trophy"></i>
+                                    <span>Propuesta Integral</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </section>
+                    
+                </article>
+            </section>
+        </main>
+        
+    </section>
+    <!-- ═══════════════════════════════════════════════════════════
+     🎨 FOOTER ESPECTACULAR - HTML
+     Copia este código al final de CADA página (antes de </body>)
+     ════════════════════════════════════════════════════════════ -->
+
+<!-- Footer Espectacular -->
+<footer class="spectacular-footer">
+    
+    <!-- Animated Background -->
+    <div class="footer-animated-bg">
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <!-- Las partículas se crean con JavaScript -->
+    </div>
+    
+    <!-- Wave Divider -->
+    <div class="footer-wave">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path class="wave-path" d="M0,0 C150,80 350,0 600,50 C850,100 1050,20 1200,80 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.3"/>
+            <path class="wave-path" d="M0,0 C200,60 400,20 600,70 C800,120 1000,40 1200,90 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.2" 
+                  style="animation-duration: 15s; animation-delay: -5s;"/>
+            <defs>
+                <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#42a5f5;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+    
+    <!-- Footer Content -->
+    <div class="footer-content">
+        
+        <!-- Footer Grid -->
+        <div class="footer-grid">
+            
+            <!-- Universidad -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Universidad
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎓</div>
+                    <div class="footer-item-text">Universidad de El Salvador</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏛️</div>
+                    <div class="footer-item-text">Facultad de Ciencias Naturales y Matematicas</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📚</div>
+                    <div class="footer-item-text">Licenciatura en Informática Educativa</div>
+                </div>
+            </div>
+            
+            <!-- Práctica Docente -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    Práctica Docente
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📖</div>
+                    <div class="footer-item-text">Lenguaje y Literatura</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏫</div>
+                    <div class="footer-item-text">Instituto Nacional "14 de Julio de 1875"</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📅</div>
+                    <div class="footer-item-text">Ciclo II - <span class="current-year">2025</span></div>
+                </div>
+            </div>
+            
+            <!-- Información -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Información
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎯</div>
+                    <div class="footer-item-text">Portafolio Digital Docente</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">💼</div>
+                    <div class="footer-item-text">Práctica Profesional</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">✨</div>
+                    <div class="footer-item-text">Evidencias y Reflexiones</div>
+                </div>
+            </div>
+            
+            <!-- Desarrollador -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-code"></i>
+                    Desarrollado por
+                </h3>
+                <div class="developer-card">
+                    <div class="developer-avatar">
+                        👨‍💻
+                    </div>
+                    <div class="developer-name">Carlos Antonio Salgado Romero</div>
+                    <div class="developer-role">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        Estudiante UES
+                    </div>
+                </div>
+                
+                <!-- Social Links (opcional) -->
+                <div class="social-links" style="margin-top: 20px; justify-content: center;">
+                    <a href="#" class="social-link" title="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <div class="copyright-text">
+                    <i class="fa-regular fa-copyright copyright-icon"></i>
+                    <span class="current-year">2025</span>
+                    <span>Universidad de El Salvador</span>
+                    <span>•</span>
+                    <span>Práctica Docente</span>
+                </div>
+                <div class="copyright-text">
+                    <span>Hecho con</span>
+                    <i class="fa-solid fa-heart copyright-heart"></i>
+                    <span>para la educación</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</footer>
+
+<!-- Scroll to Top Button -->
+<button class="scroll-to-top" title="Volver arriba">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+    <script src="script.js"></script>
+    <script src="reflexion_diseno.js"></script>
+</body>
+</html>

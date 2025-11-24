@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidencias de la Práctica Docente - Carlos Antonio Salgado Romero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="objetivos.css">
+    <link rel="stylesheet" href="evidencias.css">
+</head>
+<body>
+    
+    <!-- App Container -->
+    <section id="app" class="logged-in">
+        
+        <!-- Background -->
+        <section id="app-background">
+            <div id="app-background-image" class="background-image"></div>
+        </section>
+        
+        <!-- Main Menu -->
+        <main id="app-menu">
+            <section id="app-menu-content-wrapper">
+                <article id="app-menu-content">
+                    
+                    <!-- Header con Logo y Hora -->
+                    <header id="app-menu-content-header">
+                        <article class="header-left">
+                            <!-- Logo Universidad -->
+                            <figure class="logo-placeholder small">
+                                <img src="LogoUes.png" alt="Logo Universidad de El Salvador" class="logo-image">
+                            </figure>
+                            <section class="header-info">
+                                <span class="time" id="time-menu">5:45</span>
+                                <span class="university-text">Universidad de El Salvador</span>
+                            </section>
+                        </article>
+                        <article class="header-right">
+                            <a href="index.html" class="user-status-button clear-button">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                        </article>
+                    </header>
+                    
+                    <!-- Navigation Bar - Fixed -->
+                    <nav id="main-nav">
+                        <a href="objetivos.html" class="nav-item clear-button">Objetivos de la práctica docente</a>
+                        <a href="planeacion.html" class="nav-item clear-button">Planeación y organización</a>
+                        <a href="planificaciones.html" class="nav-item clear-button">Planificaciones de clases</a>
+                        <a href="evidencias.html" class="nav-item clear-button active">Evidencias de la práctica docente</a>
+                        <a href="diario.html" class="nav-item clear-button">Diario reflexivo semanal</a>
+                        <a href="instrumentos.html" class="nav-item clear-button">Instrumentos aplicados y resultados</a>
+                        <a href="evaluacion.html" class="nav-item clear-button">Evaluación y retroalimentación</a>
+                        <a href="mejora.html" class="nav-item clear-button">Propuesta de mejora</a>
+                        <a href="recursos.html" class="nav-item clear-button">Recursos tecnológicos aplicados</a>
+                        <a href="anexos.html" class="nav-item clear-button">Anexos</a>
+                    </nav>
+                    
+                    <!-- Modern Carousel Container -->
+                    <section id="modern-carousel" class="modern-carousel-section">
+                        
+                        <!-- Carousel Navigation -->
+                        <div class="carousel-nav">
+                            <button class="carousel-nav-btn prev" onclick="prevSlide()">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <button class="carousel-nav-btn next" onclick="nextSlide()">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        
+                        <!-- Carousel Counter -->
+                        <div class="carousel-counter">
+                            <span class="current-slide">1</span> / <span class="total-slides">8</span>
+                        </div>
+                        
+                        <!-- Carousel Slides -->
+                        <div class="carousel-wrapper">
+                            <div class="carousel-track" id="carouselTrack">
+                                
+                                <!-- Slide 1 -->
+                                <div class="carousel-slide active" data-slide="1">
+                                    <div class="slide-content">
+                                        <div class="slide-image-wrapper">
+                                            <img src="2.jpg" alt="Evidencia 1" class="slide-image">
+                                            <div class="slide-overlay"></div>
+                                        </div>
+                                        <div class="slide-info">
+                                            <span class="slide-number">01</span>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Slide 2 -->
+                                
+                                
+                                <!-- Slide 3 -->
+                                <div class="carousel-slide" data-slide="3">
+                                    <div class="slide-content">
+                                        <div class="slide-image-wrapper">
+                                            <img src="3.jpg" alt="Evidencia 3" class="slide-image">
+                                            <div class="slide-overlay"></div>
+                                        </div>
+                                        <div class="slide-info">
+                                            <span class="slide-number">03</span>
+                                          
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Slide 4 -->
+                                <div class="carousel-slide" data-slide="4">
+                                    <div class="slide-content">
+                                        <div class="slide-image-wrapper">
+                                            <img src="55.jpg" alt="Evidencia 4" class="slide-image">
+                                            <div class="slide-overlay"></div>
+                                        </div>
+                                        <div class="slide-info">
+                                            <span class="slide-number">04</span>
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Slide 5 -->
+                                <div class="carousel-slide" data-slide="5">
+                                    <div class="slide-content">
+                                        <div class="slide-image-wrapper">
+                                            <img src="52.jpg" alt="Evidencia 5" class="slide-image">
+                                            <div class="slide-overlay"></div>
+                                        </div>
+                                        <div class="slide-info">
+                                            <span class="slide-number">05</span>
+                                           
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Slide 6 -->
+                                <div class="carousel-slide" data-slide="6">
+                                    <div class="slide-content">
+                                        <div class="slide-image-wrapper">
+                                            <img src="61.jpg" alt="Evidencia 6" class="slide-image">
+                                            <div class="slide-overlay"></div>
+                                        </div>
+                                        <div class="slide-info">
+                                            <span class="slide-number">06</span>
+                                            
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Slide 7 -->
+                                <div class="carousel-slide" data-slide="7">
+                                    <div class="slide-content">
+                                        <div class="slide-image-wrapper">
+                                            <img src="60.jpg" alt="Evidencia 7" class="slide-image">
+                                            <div class="slide-overlay"></div>
+                                        </div>
+                                        <div class="slide-info">
+                                            <span class="slide-number">07</span>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Slide 8 -->
+                                <div class="carousel-slide" data-slide="8">
+                                    <div class="slide-content">
+                                        <div class="slide-image-wrapper">
+                                            <img src="50.jpg" alt="Evidencia 8" class="slide-image">
+                                            <div class="slide-overlay"></div>
+                                        </div>
+                                        <div class="slide-info">
+                                            <span class="slide-number">08</span>
+                                            
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <!-- Carousel Dots -->
+                        <div class="carousel-dots" id="carouselDots">
+                            <span class="dot active" onclick="goToSlide(1)"></span>
+                            <span class="dot" onclick="goToSlide(2)"></span>
+                            <span class="dot" onclick="goToSlide(3)"></span>
+                            <span class="dot" onclick="goToSlide(4)"></span>
+                            <span class="dot" onclick="goToSlide(5)"></span>
+                            <span class="dot" onclick="goToSlide(6)"></span>
+                            <span class="dot" onclick="goToSlide(7)"></span>
+                            <span class="dot" onclick="goToSlide(8)"></span>
+                        </div>
+                        
+                        <!-- Progress Bar -->
+                        <div class="carousel-progress">
+                            <div class="progress-bar" id="progressBar"></div>
+                        </div>
+                        
+                    </section>
+                    
+                </article>
+            </section>
+        </main>
+        
+    </section>
+    <!-- ═══════════════════════════════════════════════════════════
+     🎨 FOOTER ESPECTACULAR - HTML
+     Copia este código al final de CADA página (antes de </body>)
+     ════════════════════════════════════════════════════════════ -->
+
+<!-- Footer Espectacular -->
+<footer class="spectacular-footer">
+    
+    <!-- Animated Background -->
+    <div class="footer-animated-bg">
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <!-- Las partículas se crean con JavaScript -->
+    </div>
+    
+    <!-- Wave Divider -->
+    <div class="footer-wave">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path class="wave-path" d="M0,0 C150,80 350,0 600,50 C850,100 1050,20 1200,80 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.3"/>
+            <path class="wave-path" d="M0,0 C200,60 400,20 600,70 C800,120 1000,40 1200,90 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.2" 
+                  style="animation-duration: 15s; animation-delay: -5s;"/>
+            <defs>
+                <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#42a5f5;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+    
+    <!-- Footer Content -->
+    <div class="footer-content">
+        
+        <!-- Footer Grid -->
+        <div class="footer-grid">
+            
+            <!-- Universidad -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Universidad
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎓</div>
+                    <div class="footer-item-text">Universidad de El Salvador</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏛️</div>
+                    <div class="footer-item-text">Facultad de Ciencias Naturales y Matematicas</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📚</div>
+                    <div class="footer-item-text">Licenciatura en Informática Educativa</div>
+                </div>
+            </div>
+            
+            <!-- Práctica Docente -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    Práctica Docente
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📖</div>
+                    <div class="footer-item-text">Lenguaje y Literatura</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏫</div>
+                    <div class="footer-item-text">Instituto Nacional "14 de Julio de 1875"</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📅</div>
+                    <div class="footer-item-text">Ciclo II - <span class="current-year">2025</span></div>
+                </div>
+            </div>
+            
+            <!-- Información -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Información
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎯</div>
+                    <div class="footer-item-text">Portafolio Digital Docente</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">💼</div>
+                    <div class="footer-item-text">Práctica Profesional</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">✨</div>
+                    <div class="footer-item-text">Evidencias y Reflexiones</div>
+                </div>
+            </div>
+            
+            <!-- Desarrollador -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-code"></i>
+                    Desarrollado por
+                </h3>
+                <div class="developer-card">
+                    <div class="developer-avatar">
+                        👨‍💻
+                    </div>
+                    <div class="developer-name">Carlos Antonio Salgado Romero</div>
+                    <div class="developer-role">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        Estudiante UES
+                    </div>
+                </div>
+                
+                <!-- Social Links (opcional) -->
+                <div class="social-links" style="margin-top: 20px; justify-content: center;">
+                    <a href="#" class="social-link" title="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <div class="copyright-text">
+                    <i class="fa-regular fa-copyright copyright-icon"></i>
+                    <span class="current-year">2025</span>
+                    <span>Universidad de El Salvador</span>
+                    <span>•</span>
+                    <span>Práctica Docente</span>
+                </div>
+                <div class="copyright-text">
+                    <span>Hecho con</span>
+                    <i class="fa-solid fa-heart copyright-heart"></i>
+                    <span>para la educación</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</footer>
+
+<!-- Scroll to Top Button -->
+<button class="scroll-to-top" title="Volver arriba">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+
+    <script src="evidencias.js"></script>
+</body>
+</html>

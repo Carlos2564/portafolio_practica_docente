@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conclusiones y Valoración - Carlos Antonio Salgado Romero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="objetivos.css">
+    <link rel="stylesheet" href="conclusiones.css">
+</head>
+<body>
+    
+    <!-- App Container -->
+    <section id="app" class="logged-in">
+        
+        <!-- Background -->
+        <section id="app-background">
+            <div id="app-background-image" class="background-image"></div>
+        </section>
+        
+        <!-- Main Menu -->
+        <main id="app-menu">
+            <section id="app-menu-content-wrapper">
+                <article id="app-menu-content">
+                    
+                    <!-- Header con Logo y Hora -->
+                    <header id="app-menu-content-header">
+                        <article class="header-left">
+                            <!-- Logo Universidad -->
+                            <figure class="logo-placeholder small">
+                                <img src="LogoUes.png" alt="Logo Universidad de El Salvador" class="logo-image">
+                            </figure>
+                            <section class="header-info">
+                                <span class="time" id="time-menu">5:45</span>
+                                <span class="university-text">Universidad de El Salvador</span>
+                            </section>
+                        </article>
+                        <article class="header-right">
+                            <a href="index.html" class="user-status-button clear-button">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                        </article>
+                    </header>
+                    
+                    <!-- Navigation Bar - Fixed -->
+                    <nav id="main-nav">
+                        <a href="objetivos.html" class="nav-item clear-button">Objetivos de la práctica docente</a>
+                        <a href="planeacion.html" class="nav-item clear-button">Planeación y organización</a>
+                        <a href="planificaciones.html" class="nav-item clear-button">Planificaciones de clases</a>
+                        <a href="evidencias.html" class="nav-item clear-button">Evidencias de la práctica docente</a>
+                        <a href="diario.html" class="nav-item clear-button">Diario reflexivo semanal</a>
+                        <a href="instrumentos.html" class="nav-item clear-button">Instrumentos aplicados y resultados</a>
+                        <a href="evaluacion.html" class="nav-item clear-button">Evaluación y retroalimentación</a>
+                        <a href="mejora.html" class="nav-item clear-button">Propuesta de mejora</a>
+                        <a href="recursos.html" class="nav-item clear-button active">Recursos tecnológicos aplicados</a>
+                        <a href="anexos.html" class="nav-item clear-button">Anexos</a>
+                    </nav>
+                    
+                    <!-- Sub Navigation Bar -->
+                    <nav id="sub-nav">
+                        <div class="border-effect"></div>
+                        <ul>
+                            <li id="herramientas-tab">
+                                <a href="recursos.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.5 12H12M12 12H16.5M12 12V7.5M12 12V16.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Herramientas y experiencias</p>
+                                </a>
+                            </li>
+                            <li id="conclusiones-tab" class="active">
+                                <a href="conclusiones.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.75 12L10.58 14.83L16.25 9.17" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Conclusiones y valoración</p>
+                                </a>
+                            </li>
+                            <li id="logros-tab">
+                                <a href="logros.html" class="sub-nav-link">
+                                    <svg class="active-fill" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12 2V9M12 15V22M22 12H15M9 12H2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>Logros alcanzados</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <!-- Content Section -->
+                    <section id="conclusiones-content" class="content-section">
+                        
+                        <!-- Hero Header -->
+                        <div class="hero-header">
+                            <div class="hero-icon">
+                                <i class="fa-solid fa-flag-checkered"></i>
+                            </div>
+                            <h1 class="main-title">Conclusiones y Valoración General</h1>
+                            <p class="hero-subtitle">Reflexión final sobre la práctica docente</p>
+                        </div>
+                        
+                        <!-- Valoración General -->
+                        <div class="valoracion-section">
+                            <div class="valoracion-header">
+                                <div class="valoracion-badge">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span>Valoración Sumamente Positiva</span>
+                                </div>
+                            </div>
+                            
+                            <div class="valoracion-content">
+                                <p class="valoracion-text highlight">
+                                    Mi valoración general de la práctica docente es sumamente positiva, más que una asignatura, fue un laboratorio intensivo donde pude aplicar mi formación integral, el proceso no solo certificó mi capacidad para planificar y ejecutar didácticamente, sino que me proveyó de un invaluable capital humano.
+                                </p>
+                                
+                                <div class="caracteristicas-grid">
+                                    <div class="caracteristica-item">
+                                        <div class="caracteristica-icon">
+                                            <i class="fa-solid fa-flask"></i>
+                                        </div>
+                                        <h4 class="caracteristica-title">Laboratorio Intensivo</h4>
+                                        <p class="caracteristica-text">Espacio de aplicación práctica de formación integral</p>
+                                    </div>
+                                    
+                                    <div class="caracteristica-item">
+                                        <div class="caracteristica-icon">
+                                            <i class="fa-solid fa-certificate"></i>
+                                        </div>
+                                        <h4 class="caracteristica-title">Certificación de Capacidades</h4>
+                                        <p class="caracteristica-text">Validación de planificación y ejecución didáctica</p>
+                                    </div>
+                                    
+                                    <div class="caracteristica-item">
+                                        <div class="caracteristica-icon">
+                                            <i class="fa-solid fa-users"></i>
+                                        </div>
+                                        <h4 class="caracteristica-title">Capital Humano</h4>
+                                        <p class="caracteristica-text">Invaluable experiencia de conexión y crecimiento</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Reconocimientos -->
+                        <div class="reconocimientos-section">
+                            <div class="section-header centered">
+                                <div class="section-icon">
+                                    <i class="fa-solid fa-award"></i>
+                                </div>
+                                <h2 class="section-title">Reconocimientos Recibidos</h2>
+                            </div>
+                            
+                            <div class="reconocimientos-grid">
+                                
+                                <!-- Reconocimiento Docente Titular -->
+                                <article class="reconocimiento-card docente" data-aos="fade-right">
+                                    <div class="reconocimiento-header">
+                                        <div class="evaluador-avatar">
+                                            <i class="fa-solid fa-chalkboard-user"></i>
+                                        </div>
+                                        <div class="evaluador-info">
+                                            <h3 class="evaluador-nombre">Profesora Nélida Josefina Castillo de Saravia</h3>
+                                            <p class="evaluador-rol">Docente Titular</p>
+                                        </div>
+                                    </div>
+                                    <div class="reconocimiento-body">
+                                        <p class="reconocimiento-text">
+                                            Mi desempeño fue gratamente reconocido por la docente titular Nélida Castillo, quien destacó mi compromiso y mi eficiente involucramiento en la creación de material y la gestión de evaluaciones.
+                                        </p>
+                                        <div class="aspectos-destacados">
+                                            <span class="aspecto-tag">
+                                                <i class="fa-solid fa-check-circle"></i>
+                                                Compromiso destacado
+                                            </span>
+                                            <span class="aspecto-tag">
+                                                <i class="fa-solid fa-check-circle"></i>
+                                                Creación de material
+                                            </span>
+                                            <span class="aspecto-tag">
+                                                <i class="fa-solid fa-check-circle"></i>
+                                                Gestión de evaluaciones
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+                                
+                                <!-- Reconocimiento Supervisor -->
+                                <article class="reconocimiento-card supervisor" data-aos="fade-left">
+                                    <div class="reconocimiento-header">
+                                        <div class="evaluador-avatar">
+                                            <i class="fa-solid fa-user-tie"></i>
+                                        </div>
+                                        <div class="evaluador-info">
+                                            <h3 class="evaluador-nombre">ING. Milton Noé Argueta Ramos</h3>
+                                            <p class="evaluador-rol">Supervisor de Prácticas</p>
+                                        </div>
+                                    </div>
+                                    <div class="reconocimiento-body">
+                                        <p class="reconocimiento-text">
+                                            Asimismo, la opinión del Ing. Milton Noé Argueta Ramos, nuestro Supervisor de Prácticas, reforzó mi dirección, señalando que la iniciativa de ir más allá del requisito oficial y mi manejo de la tecnología son activos fundamentales para el futuro docente.
+                                        </p>
+                                        <div class="aspectos-destacados">
+                                            <span class="aspecto-tag">
+                                                <i class="fa-solid fa-check-circle"></i>
+                                                Iniciativa excepcional
+                                            </span>
+                                            <span class="aspecto-tag">
+                                                <i class="fa-solid fa-check-circle"></i>
+                                                Manejo de tecnología
+                                            </span>
+                                            <span class="aspecto-tag">
+                                                <i class="fa-solid fa-check-circle"></i>
+                                                Activos fundamentales
+                                            </span>
+                                        </div>
+                                    </div>
+                                </article>
+                                
+                            </div>
+                        </div>
+                        
+                        <!-- Convicción Final -->
+                        <div class="conviccion-section">
+                            <div class="conviccion-icon">
+                                <i class="fa-solid fa-heart-circle-check"></i>
+                            </div>
+                            <h3 class="conviccion-title">Teoría Convertida en Convicción</h3>
+                            <p class="conviccion-text">
+                                Esta experiencia válida que, aunque desafiante, la práctica fue el escenario ideal para transformar la teoría en convicción.
+                            </p>
+                            <div class="transformacion-visual">
+                                <div class="transformacion-item">
+                                    <div class="transformacion-icon teoria">
+                                        <i class="fa-solid fa-book"></i>
+                                    </div>
+                                    <span>Teoría</span>
+                                </div>
+                                <div class="transformacion-arrow">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                                <div class="transformacion-item">
+                                    <div class="transformacion-icon practica">
+                                        <i class="fa-solid fa-chalkboard-user"></i>
+                                    </div>
+                                    <span>Práctica</span>
+                                </div>
+                                <div class="transformacion-arrow">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                                <div class="transformacion-item">
+                                    <div class="transformacion-icon conviccion">
+                                        <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <span>Convicción</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </section>
+                    
+                </article>
+            </section>
+        </main>
+        
+    </section>
+    <!-- ═══════════════════════════════════════════════════════════
+     🎨 FOOTER ESPECTACULAR - HTML
+     Copia este código al final de CADA página (antes de </body>)
+     ════════════════════════════════════════════════════════════ -->
+
+<!-- Footer Espectacular -->
+<footer class="spectacular-footer">
+    
+    <!-- Animated Background -->
+    <div class="footer-animated-bg">
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <div class="footer-circle"></div>
+        <!-- Las partículas se crean con JavaScript -->
+    </div>
+    
+    <!-- Wave Divider -->
+    <div class="footer-wave">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path class="wave-path" d="M0,0 C150,80 350,0 600,50 C850,100 1050,20 1200,80 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.3"/>
+            <path class="wave-path" d="M0,0 C200,60 400,20 600,70 C800,120 1000,40 1200,90 L1200,0 L0,0 Z" 
+                  fill="url(#waveGradient)" opacity="0.2" 
+                  style="animation-duration: 15s; animation-delay: -5s;"/>
+            <defs>
+                <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:#42a5f5;stop-opacity:1" />
+                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </div>
+    
+    <!-- Footer Content -->
+    <div class="footer-content">
+        
+        <!-- Footer Grid -->
+        <div class="footer-grid">
+            
+            <!-- Universidad -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Universidad
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎓</div>
+                    <div class="footer-item-text">Universidad de El Salvador</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏛️</div>
+                    <div class="footer-item-text">Facultad de Ciencias Naturales y Matematicas</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📚</div>
+                    <div class="footer-item-text">Licenciatura en Informática Educativa</div>
+                </div>
+            </div>
+            
+            <!-- Práctica Docente -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    Práctica Docente
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📖</div>
+                    <div class="footer-item-text">Lenguaje y Literatura</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🏫</div>
+                    <div class="footer-item-text">Instituto Nacional "14 de Julio de 1875"</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">📅</div>
+                    <div class="footer-item-text">Ciclo II - <span class="current-year">2025</span></div>
+                </div>
+            </div>
+            
+            <!-- Información -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-circle-info"></i>
+                    Información
+                </h3>
+                <div class="footer-item">
+                    <div class="footer-item-icon">🎯</div>
+                    <div class="footer-item-text">Portafolio Digital Docente</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">💼</div>
+                    <div class="footer-item-text">Práctica Profesional</div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-item-icon">✨</div>
+                    <div class="footer-item-text">Evidencias y Reflexiones</div>
+                </div>
+            </div>
+            
+            <!-- Desarrollador -->
+            <div class="footer-section">
+                <h3 class="footer-title">
+                    <i class="fa-solid fa-code"></i>
+                    Desarrollado por
+                </h3>
+                <div class="developer-card">
+                    <div class="developer-avatar">
+                        👨‍💻
+                    </div>
+                    <div class="developer-name">Carlos Antonio Salgado Romero</div>
+                    <div class="developer-role">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        Estudiante UES
+                    </div>
+                </div>
+                
+                <!-- Social Links (opcional) -->
+                <div class="social-links" style="margin-top: 20px; justify-content: center;">
+                    <a href="#" class="social-link" title="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <div class="copyright-text">
+                    <i class="fa-regular fa-copyright copyright-icon"></i>
+                    <span class="current-year">2025</span>
+                    <span>Universidad de El Salvador</span>
+                    <span>•</span>
+                    <span>Práctica Docente</span>
+                </div>
+                <div class="copyright-text">
+                    <span>Hecho con</span>
+                    <i class="fa-solid fa-heart copyright-heart"></i>
+                    <span>para la educación</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</footer>
+
+<!-- Scroll to Top Button -->
+<button class="scroll-to-top" title="Volver arriba">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+    <script src="conclusiones.js"></script>
+</body>
+</html>
